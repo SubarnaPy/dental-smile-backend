@@ -27,9 +27,14 @@ connectDB().then(() => {
   console.log('Setting up middleware...');
   app.use(helmet());
   app.use(cors({
-    origin: process.env.NODE_ENV === 'production'
-      ? ['https://dentalesmails.netlify.app', 'https://dentalesmails-admin.netlify.app']
-      : ['http://localhost:3000', 'http://localhost:5173', 'http://localhost:8080','http://localhost:8081'],
+    origin: [
+      'https://dentalesmails.netlify.app', 
+      'https://dentalesmails-admin.netlify.app',
+      'http://localhost:3000', 
+      'http://localhost:5173', 
+      'http://localhost:8080',
+      'http://localhost:8081'
+    ],
     credentials: true
   }));
 
