@@ -1,0 +1,1785 @@
+[
+  {
+    "id": "69280e2945c9254120538b35",
+    "title": "Emergency Dentistry",
+    "slug": "emergency-dentistry",
+    "status": "(no status)",
+    "sectionsCount": 6,
+    "issues": [
+      "Section hero contains local image paths (1)",
+      "Section section-2 contains local image paths (1)",
+      "Section section-3 contains local image paths (1)",
+      "Section section-4 contains local image paths (1)",
+      "Top-level local image path: C:\\Users\\SUBARNA MONDAL\\Desktop\\kryptonics\\dental smile\\assets\\service1\\placeholder1.png",
+      "Top-level local image path: C:\\Users\\SUBARNA MONDAL\\Desktop\\kryptonics\\dental smile\\assets\\service1\\placeholder1.png"
+    ],
+    "sectionSummaries": [
+      {
+        "id": "hero",
+        "type": "hero",
+        "title": "Emergency Dentistry",
+        "contentLength": 228,
+        "imagesCount": 1,
+        "localImagePaths": [
+          "C:\\Users\\SUBARNA MONDAL\\Desktop\\kryptonics\\dental smile\\assets\\service1\\placeholder1.png"
+        ],
+        "imageUrls": [
+          "C:\\Users\\SUBARNA MONDAL\\Desktop\\kryptonics\\dental smile\\assets\\service1\\placeholder1.png"
+        ]
+      },
+      {
+        "id": "section-1",
+        "type": "text",
+        "title": "Why Emergency Care Matters",
+        "contentLength": 337,
+        "imagesCount": 0,
+        "localImagePaths": [],
+        "imageUrls": []
+      },
+      {
+        "id": "section-2",
+        "type": "text",
+        "title": "Common Dental Emergencies We Treat",
+        "contentLength": 377,
+        "imagesCount": 1,
+        "localImagePaths": [
+          "C:\\Users\\SUBARNA MONDAL\\Desktop\\kryptonics\\dental smile\\assets\\service1\\placeholder2.png"
+        ],
+        "imageUrls": [
+          "C:\\Users\\SUBARNA MONDAL\\Desktop\\kryptonics\\dental smile\\assets\\service1\\placeholder2.png"
+        ]
+      },
+      {
+        "id": "section-3",
+        "type": "text",
+        "title": "What to Expect During Your Visit",
+        "contentLength": 306,
+        "imagesCount": 1,
+        "localImagePaths": [
+          "C:\\Users\\SUBARNA MONDAL\\Desktop\\kryptonics\\dental smile\\assets\\service1\\placeholder6.png"
+        ],
+        "imageUrls": [
+          "C:\\Users\\SUBARNA MONDAL\\Desktop\\kryptonics\\dental smile\\assets\\service1\\placeholder6.png"
+        ]
+      },
+      {
+        "id": "section-4",
+        "type": "text",
+        "title": "First Aid Before Your Visit",
+        "contentLength": 331,
+        "imagesCount": 1,
+        "localImagePaths": [
+          "C:\\Users\\SUBARNA MONDAL\\Desktop\\kryptonics\\dental smile\\assets\\service1\\placeholder4.png"
+        ],
+        "imageUrls": [
+          "C:\\Users\\SUBARNA MONDAL\\Desktop\\kryptonics\\dental smile\\assets\\service1\\placeholder4.png"
+        ]
+      },
+      {
+        "id": "section-5",
+        "type": "text",
+        "title": "Need Emergency Dental Care?",
+        "contentLength": 104,
+        "imagesCount": 0,
+        "localImagePaths": [],
+        "imageUrls": []
+      }
+    ]
+  },
+  {
+    "id": "69280e2945c9254120538b38",
+    "title": "Dental Exams & Cleanings",
+    "slug": "dental-exams-cleanings",
+    "status": "(no status)",
+    "sectionsCount": 6,
+    "issues": [
+      "Section hero contains local image paths (1)",
+      "Section section-2 contains local image paths (1)",
+      "Top-level local image path: C:\\Users\\SUBARNA MONDAL\\Desktop\\kryptonics\\dental smile\\assets\\service2\\Gemini_Generated_Image_d71h8cd71h8cd71h.png",
+      "Top-level local image path: C:\\Users\\SUBARNA MONDAL\\Desktop\\kryptonics\\dental smile\\assets\\service2\\Gemini_Generated_Image_d71h8cd71h8cd71h.png"
+    ],
+    "sectionSummaries": [
+      {
+        "id": "hero",
+        "type": "hero",
+        "title": "Dental Exams & Cleanings",
+        "contentLength": 185,
+        "imagesCount": 1,
+        "localImagePaths": [
+          "C:\\Users\\SUBARNA MONDAL\\Desktop\\kryptonics\\dental smile\\assets\\service2\\Gemini_Generated_Image_d71h8cd71h8cd71h.png"
+        ],
+        "imageUrls": [
+          "C:\\Users\\SUBARNA MONDAL\\Desktop\\kryptonics\\dental smile\\assets\\service2\\Gemini_Generated_Image_d71h8cd71h8cd71h.png"
+        ]
+      },
+      {
+        "id": "section-1",
+        "type": "text",
+        "title": "Why Regular Exams Matter",
+        "contentLength": 428,
+        "imagesCount": 0,
+        "localImagePaths": [],
+        "imageUrls": []
+      },
+      {
+        "id": "section-2",
+        "type": "text",
+        "title": "Our Comprehensive Exam Process",
+        "contentLength": 387,
+        "imagesCount": 1,
+        "localImagePaths": [
+          "C:\\Users\\SUBARNA MONDAL\\Desktop\\kryptonics\\dental smile\\assets\\service2\\Gemini_Generated_Image_7k38mu7k38mu7k38.png"
+        ],
+        "imageUrls": [
+          "C:\\Users\\SUBARNA MONDAL\\Desktop\\kryptonics\\dental smile\\assets\\service2\\Gemini_Generated_Image_7k38mu7k38mu7k38.png"
+        ]
+      },
+      {
+        "id": "section-3",
+        "type": "text",
+        "title": "How Often Should You Get Exams?",
+        "contentLength": 304,
+        "imagesCount": 0,
+        "localImagePaths": [],
+        "imageUrls": []
+      },
+      {
+        "id": "section-4",
+        "type": "text",
+        "title": "What to Expect During Your Visit",
+        "contentLength": 344,
+        "imagesCount": 0,
+        "localImagePaths": [],
+        "imageUrls": []
+      },
+      {
+        "id": "section-5",
+        "type": "text",
+        "title": "Keep Your Smile Healthy",
+        "contentLength": 109,
+        "imagesCount": 0,
+        "localImagePaths": [],
+        "imageUrls": []
+      }
+    ]
+  },
+  {
+    "id": "69280e2945c9254120538b3b",
+    "title": "Family Dentistry",
+    "slug": "family-dentistry",
+    "status": "(no status)",
+    "sectionsCount": 6,
+    "issues": [
+      "Section hero contains local image paths (1)",
+      "Section section-2 contains local image paths (1)",
+      "Top-level local image path: C:\\Users\\SUBARNA MONDAL\\Desktop\\kryptonics\\dental smile\\assets\\service3\\Gemini_Generated_Image_cla59acla59acla5.png",
+      "Top-level local image path: C:\\Users\\SUBARNA MONDAL\\Desktop\\kryptonics\\dental smile\\assets\\service3\\Gemini_Generated_Image_cla59acla59acla5.png"
+    ],
+    "sectionSummaries": [
+      {
+        "id": "hero",
+        "type": "hero",
+        "title": "Family Dentistry",
+        "contentLength": 201,
+        "imagesCount": 1,
+        "localImagePaths": [
+          "C:\\Users\\SUBARNA MONDAL\\Desktop\\kryptonics\\dental smile\\assets\\service3\\Gemini_Generated_Image_cla59acla59acla5.png"
+        ],
+        "imageUrls": [
+          "C:\\Users\\SUBARNA MONDAL\\Desktop\\kryptonics\\dental smile\\assets\\service3\\Gemini_Generated_Image_cla59acla59acla5.png"
+        ]
+      },
+      {
+        "id": "section-1",
+        "type": "text",
+        "title": "Why Choose Family Dentistry?",
+        "contentLength": 551,
+        "imagesCount": 0,
+        "localImagePaths": [],
+        "imageUrls": []
+      },
+      {
+        "id": "section-2",
+        "type": "text",
+        "title": "Care for Every Age",
+        "contentLength": 551,
+        "imagesCount": 1,
+        "localImagePaths": [
+          "C:\\Users\\SUBARNA MONDAL\\Desktop\\kryptonics\\dental smile\\assets\\service3\\Gemini_Generated_Image_cla59acla59acla5 (1).png"
+        ],
+        "imageUrls": [
+          "C:\\Users\\SUBARNA MONDAL\\Desktop\\kryptonics\\dental smile\\assets\\service3\\Gemini_Generated_Image_cla59acla59acla5 (1).png"
+        ]
+      },
+      {
+        "id": "section-3",
+        "type": "text",
+        "title": "Complete Family Services",
+        "contentLength": 69,
+        "imagesCount": 0,
+        "localImagePaths": [],
+        "imageUrls": []
+      },
+      {
+        "id": "section-4",
+        "type": "text",
+        "title": "Tips for Family Dental Health",
+        "contentLength": 323,
+        "imagesCount": 0,
+        "localImagePaths": [],
+        "imageUrls": []
+      },
+      {
+        "id": "section-5",
+        "type": "text",
+        "title": "Your Family's Smile Matters",
+        "contentLength": 104,
+        "imagesCount": 0,
+        "localImagePaths": [],
+        "imageUrls": []
+      }
+    ]
+  },
+  {
+    "id": "69280e2945c9254120538b3e",
+    "title": "Kids Dentistry",
+    "slug": "kids-dentistry",
+    "status": "(no status)",
+    "sectionsCount": 6,
+    "issues": [
+      "Section hero contains local image paths (1)",
+      "Section section-2 contains local image paths (1)",
+      "Top-level local image path: C:\\Users\\SUBARNA MONDAL\\Desktop\\kryptonics\\dental smile\\assets\\service4\\Gemini_Generated_Image_3qsvb83qsvb83qsv.png",
+      "Top-level local image path: C:\\Users\\SUBARNA MONDAL\\Desktop\\kryptonics\\dental smile\\assets\\service4\\Gemini_Generated_Image_3qsvb83qsvb83qsv.png"
+    ],
+    "sectionSummaries": [
+      {
+        "id": "hero",
+        "type": "hero",
+        "title": "Kids Dentistry",
+        "contentLength": 145,
+        "imagesCount": 1,
+        "localImagePaths": [
+          "C:\\Users\\SUBARNA MONDAL\\Desktop\\kryptonics\\dental smile\\assets\\service4\\Gemini_Generated_Image_3qsvb83qsvb83qsv.png"
+        ],
+        "imageUrls": [
+          "C:\\Users\\SUBARNA MONDAL\\Desktop\\kryptonics\\dental smile\\assets\\service4\\Gemini_Generated_Image_3qsvb83qsvb83qsv.png"
+        ]
+      },
+      {
+        "id": "section-1",
+        "type": "text",
+        "title": "Why Kids Dentistry Matters",
+        "contentLength": 299,
+        "imagesCount": 0,
+        "localImagePaths": [],
+        "imageUrls": []
+      },
+      {
+        "id": "section-2",
+        "type": "text",
+        "title": "Our Kid-Friendly Approach",
+        "contentLength": 308,
+        "imagesCount": 1,
+        "localImagePaths": [
+          "C:\\Users\\SUBARNA MONDAL\\Desktop\\kryptonics\\dental smile\\assets\\service4\\Gemini_Generated_Image_3qsvb83qsvb83qsv (1).png"
+        ],
+        "imageUrls": [
+          "C:\\Users\\SUBARNA MONDAL\\Desktop\\kryptonics\\dental smile\\assets\\service4\\Gemini_Generated_Image_3qsvb83qsvb83qsv (1).png"
+        ]
+      },
+      {
+        "id": "section-3",
+        "type": "text",
+        "title": "Services for Children",
+        "contentLength": 51,
+        "imagesCount": 0,
+        "localImagePaths": [],
+        "imageUrls": []
+      },
+      {
+        "id": "section-4",
+        "type": "text",
+        "title": "Dental Milestones by Age",
+        "contentLength": 303,
+        "imagesCount": 0,
+        "localImagePaths": [],
+        "imageUrls": []
+      },
+      {
+        "id": "section-5",
+        "type": "text",
+        "title": "Start Your Child's Smile Journey",
+        "contentLength": 87,
+        "imagesCount": 0,
+        "localImagePaths": [],
+        "imageUrls": []
+      }
+    ]
+  },
+  {
+    "id": "69280e2945c9254120538b41",
+    "title": "Tooth Extractions",
+    "slug": "tooth-extractions",
+    "status": "(no status)",
+    "sectionsCount": 7,
+    "issues": [
+      "Section hero contains local image paths (1)",
+      "Section section-2 contains local image paths (1)",
+      "Top-level local image path: C:\\Users\\SUBARNA MONDAL\\Desktop\\kryptonics\\dental smile\\assets\\service5\\Gemini_Generated_Image_pw3zpnpw3zpnpw3z.png",
+      "Top-level local image path: C:\\Users\\SUBARNA MONDAL\\Desktop\\kryptonics\\dental smile\\assets\\service5\\Gemini_Generated_Image_pw3zpnpw3zpnpw3z.png"
+    ],
+    "sectionSummaries": [
+      {
+        "id": "hero",
+        "type": "hero",
+        "title": "Tooth Extractions",
+        "contentLength": 171,
+        "imagesCount": 1,
+        "localImagePaths": [
+          "C:\\Users\\SUBARNA MONDAL\\Desktop\\kryptonics\\dental smile\\assets\\service5\\Gemini_Generated_Image_pw3zpnpw3zpnpw3z.png"
+        ],
+        "imageUrls": [
+          "C:\\Users\\SUBARNA MONDAL\\Desktop\\kryptonics\\dental smile\\assets\\service5\\Gemini_Generated_Image_pw3zpnpw3zpnpw3z.png"
+        ]
+      },
+      {
+        "id": "section-1",
+        "type": "text",
+        "title": "When Is Extraction Necessary?",
+        "contentLength": 427,
+        "imagesCount": 0,
+        "localImagePaths": [],
+        "imageUrls": []
+      },
+      {
+        "id": "section-2",
+        "type": "text",
+        "title": "Our Gentle Extraction Process",
+        "contentLength": 299,
+        "imagesCount": 1,
+        "localImagePaths": [
+          "C:\\Users\\SUBARNA MONDAL\\Desktop\\kryptonics\\dental smile\\assets\\service5\\Gemini_Generated_Image_pw3zpnpw3zpnpw3z (1).png"
+        ],
+        "imageUrls": [
+          "C:\\Users\\SUBARNA MONDAL\\Desktop\\kryptonics\\dental smile\\assets\\service5\\Gemini_Generated_Image_pw3zpnpw3zpnpw3z (1).png"
+        ]
+      },
+      {
+        "id": "section-3",
+        "type": "text",
+        "title": "What to Expect",
+        "contentLength": 69,
+        "imagesCount": 0,
+        "localImagePaths": [],
+        "imageUrls": []
+      },
+      {
+        "id": "section-4",
+        "type": "text",
+        "title": "Recovery Care Instructions",
+        "contentLength": 346,
+        "imagesCount": 0,
+        "localImagePaths": [],
+        "imageUrls": []
+      },
+      {
+        "id": "section-5",
+        "type": "text",
+        "title": "Tooth Replacement Options",
+        "contentLength": 215,
+        "imagesCount": 0,
+        "localImagePaths": [],
+        "imageUrls": []
+      },
+      {
+        "id": "section-6",
+        "type": "text",
+        "title": "Let's Discuss Your Options",
+        "contentLength": 86,
+        "imagesCount": 0,
+        "localImagePaths": [],
+        "imageUrls": []
+      }
+    ]
+  },
+  {
+    "id": "69280e2945c9254120538b44",
+    "title": "Dental Fillings",
+    "slug": "dental-fillings",
+    "status": "(no status)",
+    "sectionsCount": 8,
+    "issues": [
+      "Section hero contains local image paths (1)",
+      "Section section-2 contains local image paths (1)",
+      "Top-level local image path: C:\\Users\\SUBARNA MONDAL\\Desktop\\kryptonics\\dental smile\\assets\\service6\\Gemini_Generated_Image_5tshzr5tshzr5tsh.png",
+      "Top-level local image path: C:\\Users\\SUBARNA MONDAL\\Desktop\\kryptonics\\dental smile\\assets\\service6\\Gemini_Generated_Image_5tshzr5tshzr5tsh.png"
+    ],
+    "sectionSummaries": [
+      {
+        "id": "hero",
+        "type": "hero",
+        "title": "Dental Fillings",
+        "contentLength": 146,
+        "imagesCount": 1,
+        "localImagePaths": [
+          "C:\\Users\\SUBARNA MONDAL\\Desktop\\kryptonics\\dental smile\\assets\\service6\\Gemini_Generated_Image_5tshzr5tshzr5tsh.png"
+        ],
+        "imageUrls": [
+          "C:\\Users\\SUBARNA MONDAL\\Desktop\\kryptonics\\dental smile\\assets\\service6\\Gemini_Generated_Image_5tshzr5tshzr5tsh.png"
+        ]
+      },
+      {
+        "id": "section-1",
+        "type": "text",
+        "title": "Why Fillings Are Important",
+        "contentLength": 265,
+        "imagesCount": 0,
+        "localImagePaths": [],
+        "imageUrls": []
+      },
+      {
+        "id": "section-2",
+        "type": "text",
+        "title": "Our Filling Options",
+        "contentLength": 154,
+        "imagesCount": 1,
+        "localImagePaths": [
+          "C:\\Users\\SUBARNA MONDAL\\Desktop\\kryptonics\\dental smile\\assets\\service6\\Gemini_Generated_Image_5tshzr5tshzr5tsh (1).png"
+        ],
+        "imageUrls": [
+          "C:\\Users\\SUBARNA MONDAL\\Desktop\\kryptonics\\dental smile\\assets\\service6\\Gemini_Generated_Image_5tshzr5tshzr5tsh (1).png"
+        ]
+      },
+      {
+        "id": "section-3",
+        "type": "text",
+        "title": "The Filling Process",
+        "contentLength": 264,
+        "imagesCount": 0,
+        "localImagePaths": [],
+        "imageUrls": []
+      },
+      {
+        "id": "section-4",
+        "type": "text",
+        "title": "Cost vs. Consequences",
+        "contentLength": 187,
+        "imagesCount": 0,
+        "localImagePaths": [],
+        "imageUrls": []
+      },
+      {
+        "id": "section-5",
+        "type": "text",
+        "title": "Care After Your Filling",
+        "contentLength": 366,
+        "imagesCount": 0,
+        "localImagePaths": [],
+        "imageUrls": []
+      },
+      {
+        "id": "section-6",
+        "type": "text",
+        "title": "Prevent Future Cavities",
+        "contentLength": 36,
+        "imagesCount": 0,
+        "localImagePaths": [],
+        "imageUrls": []
+      },
+      {
+        "id": "section-7",
+        "type": "text",
+        "title": "Restore Your Smile",
+        "contentLength": 116,
+        "imagesCount": 0,
+        "localImagePaths": [],
+        "imageUrls": []
+      }
+    ]
+  },
+  {
+    "id": "69280e2945c9254120538b47",
+    "title": "Dental Sealants",
+    "slug": "dental-sealants",
+    "status": "(no status)",
+    "sectionsCount": 8,
+    "issues": [
+      "Section hero contains local image paths (1)",
+      "Section section-2 contains local image paths (1)",
+      "Section section-3 contains local image paths (1)",
+      "Top-level local image path: C:\\Users\\SUBARNA MONDAL\\Desktop\\kryptonics\\dental smile\\assets\\service7\\Gemini_Generated_Image_vly5o7vly5o7vly5.png",
+      "Top-level local image path: C:\\Users\\SUBARNA MONDAL\\Desktop\\kryptonics\\dental smile\\assets\\service7\\Gemini_Generated_Image_vly5o7vly5o7vly5.png"
+    ],
+    "sectionSummaries": [
+      {
+        "id": "hero",
+        "type": "hero",
+        "title": "Dental Sealants",
+        "contentLength": 137,
+        "imagesCount": 1,
+        "localImagePaths": [
+          "C:\\Users\\SUBARNA MONDAL\\Desktop\\kryptonics\\dental smile\\assets\\service7\\Gemini_Generated_Image_vly5o7vly5o7vly5.png"
+        ],
+        "imageUrls": [
+          "C:\\Users\\SUBARNA MONDAL\\Desktop\\kryptonics\\dental smile\\assets\\service7\\Gemini_Generated_Image_vly5o7vly5o7vly5.png"
+        ]
+      },
+      {
+        "id": "section-1",
+        "type": "text",
+        "title": "Why Dental Sealants?",
+        "contentLength": 316,
+        "imagesCount": 0,
+        "localImagePaths": [],
+        "imageUrls": []
+      },
+      {
+        "id": "section-2",
+        "type": "text",
+        "title": "Who Should Get Sealants?",
+        "contentLength": 197,
+        "imagesCount": 1,
+        "localImagePaths": [
+          "C:\\Users\\SUBARNA MONDAL\\Desktop\\kryptonics\\dental smile\\assets\\service7\\Gemini_Generated_Image_vly5o7vly5o7vly5 (1).png"
+        ],
+        "imageUrls": [
+          "C:\\Users\\SUBARNA MONDAL\\Desktop\\kryptonics\\dental smile\\assets\\service7\\Gemini_Generated_Image_vly5o7vly5o7vly5 (1).png"
+        ]
+      },
+      {
+        "id": "section-3",
+        "type": "text",
+        "title": "How Dental Sealants Work",
+        "contentLength": 312,
+        "imagesCount": 1,
+        "localImagePaths": [
+          "C:\\Users\\SUBARNA MONDAL\\Desktop\\kryptonics\\dental smile\\assets\\service7\\Gemini_Generated_Image_vly5o7vly5o7vly5 (2).png"
+        ],
+        "imageUrls": [
+          "C:\\Users\\SUBARNA MONDAL\\Desktop\\kryptonics\\dental smile\\assets\\service7\\Gemini_Generated_Image_vly5o7vly5o7vly5 (2).png"
+        ]
+      },
+      {
+        "id": "section-4",
+        "type": "text",
+        "title": "What to Expect During Application",
+        "contentLength": 355,
+        "imagesCount": 0,
+        "localImagePaths": [],
+        "imageUrls": []
+      },
+      {
+        "id": "section-5",
+        "type": "text",
+        "title": "Long-Lasting Protection",
+        "contentLength": 155,
+        "imagesCount": 0,
+        "localImagePaths": [],
+        "imageUrls": []
+      },
+      {
+        "id": "section-6",
+        "type": "text",
+        "title": "Caring for Your Sealants",
+        "contentLength": 36,
+        "imagesCount": 0,
+        "localImagePaths": [],
+        "imageUrls": []
+      },
+      {
+        "id": "section-7",
+        "type": "text",
+        "title": "Protect Your Smile",
+        "contentLength": 112,
+        "imagesCount": 0,
+        "localImagePaths": [],
+        "imageUrls": []
+      }
+    ]
+  },
+  {
+    "id": "69280e2945c9254120538b4a",
+    "title": "Nitrous Sedation",
+    "slug": "nitrous-sedation",
+    "status": "(no status)",
+    "sectionsCount": 8,
+    "issues": [
+      "Section hero contains local image paths (1)",
+      "Section section-2 contains local image paths (1)",
+      "Section section-3 contains local image paths (1)",
+      "Top-level local image path: C:\\Users\\SUBARNA MONDAL\\Desktop\\kryptonics\\dental smile\\assets\\service8\\Gemini_Generated_Image_7k76iv7k76iv7k76.png",
+      "Top-level local image path: C:\\Users\\SUBARNA MONDAL\\Desktop\\kryptonics\\dental smile\\assets\\service8\\Gemini_Generated_Image_7k76iv7k76iv7k76.png"
+    ],
+    "sectionSummaries": [
+      {
+        "id": "hero",
+        "type": "hero",
+        "title": "Nitrous Sedation",
+        "contentLength": 142,
+        "imagesCount": 1,
+        "localImagePaths": [
+          "C:\\Users\\SUBARNA MONDAL\\Desktop\\kryptonics\\dental smile\\assets\\service8\\Gemini_Generated_Image_7k76iv7k76iv7k76.png"
+        ],
+        "imageUrls": [
+          "C:\\Users\\SUBARNA MONDAL\\Desktop\\kryptonics\\dental smile\\assets\\service8\\Gemini_Generated_Image_7k76iv7k76iv7k76.png"
+        ]
+      },
+      {
+        "id": "section-1",
+        "type": "text",
+        "title": "What is Nitrous Oxide?",
+        "contentLength": 305,
+        "imagesCount": 0,
+        "localImagePaths": [],
+        "imageUrls": []
+      },
+      {
+        "id": "section-2",
+        "type": "text",
+        "title": "Who Benefits from Nitrous?",
+        "contentLength": 314,
+        "imagesCount": 1,
+        "localImagePaths": [
+          "C:\\Users\\SUBARNA MONDAL\\Desktop\\kryptonics\\dental smile\\assets\\service8\\Gemini_Generated_Image_7k76iv7k76iv7k76 (1).png"
+        ],
+        "imageUrls": [
+          "C:\\Users\\SUBARNA MONDAL\\Desktop\\kryptonics\\dental smile\\assets\\service8\\Gemini_Generated_Image_7k76iv7k76iv7k76 (1).png"
+        ]
+      },
+      {
+        "id": "section-3",
+        "type": "text",
+        "title": "How Nitrous Sedation Works",
+        "contentLength": 274,
+        "imagesCount": 1,
+        "localImagePaths": [
+          "C:\\Users\\SUBARNA MONDAL\\Desktop\\kryptonics\\dental smile\\assets\\service8\\Gemini_Generated_Image_7k76iv7k76iv7k76 (2).png"
+        ],
+        "imageUrls": [
+          "C:\\Users\\SUBARNA MONDAL\\Desktop\\kryptonics\\dental smile\\assets\\service8\\Gemini_Generated_Image_7k76iv7k76iv7k76 (2).png"
+        ]
+      },
+      {
+        "id": "section-4",
+        "type": "text",
+        "title": "What to Expect During Sedation",
+        "contentLength": 36,
+        "imagesCount": 0,
+        "localImagePaths": [],
+        "imageUrls": []
+      },
+      {
+        "id": "section-5",
+        "type": "text",
+        "title": "Appointment Preparation",
+        "contentLength": 36,
+        "imagesCount": 0,
+        "localImagePaths": [],
+        "imageUrls": []
+      },
+      {
+        "id": "section-6",
+        "type": "text",
+        "title": "Is Nitrous Right for You?",
+        "contentLength": 120,
+        "imagesCount": 0,
+        "localImagePaths": [],
+        "imageUrls": []
+      },
+      {
+        "id": "section-7",
+        "type": "text",
+        "title": "Make Your Appointment Comfortable",
+        "contentLength": 86,
+        "imagesCount": 0,
+        "localImagePaths": [],
+        "imageUrls": []
+      }
+    ]
+  },
+  {
+    "id": "69280e2945c9254120538b4d",
+    "title": "Night Guards",
+    "slug": "night-guards",
+    "status": "(no status)",
+    "sectionsCount": 8,
+    "issues": [
+      "Section hero contains local image paths (1)",
+      "Section section-2 contains local image paths (1)",
+      "Section section-4 contains local image paths (1)",
+      "Top-level local image path: C:\\Users\\SUBARNA MONDAL\\Desktop\\kryptonics\\dental smile\\assets\\service9\\Gemini_Generated_Image_kjxnqykjxnqykjxn.png",
+      "Top-level local image path: C:\\Users\\SUBARNA MONDAL\\Desktop\\kryptonics\\dental smile\\assets\\service9\\Gemini_Generated_Image_kjxnqykjxnqykjxn.png"
+    ],
+    "sectionSummaries": [
+      {
+        "id": "hero",
+        "type": "hero",
+        "title": "Night Guards",
+        "contentLength": 134,
+        "imagesCount": 1,
+        "localImagePaths": [
+          "C:\\Users\\SUBARNA MONDAL\\Desktop\\kryptonics\\dental smile\\assets\\service9\\Gemini_Generated_Image_kjxnqykjxnqykjxn.png"
+        ],
+        "imageUrls": [
+          "C:\\Users\\SUBARNA MONDAL\\Desktop\\kryptonics\\dental smile\\assets\\service9\\Gemini_Generated_Image_kjxnqykjxnqykjxn.png"
+        ]
+      },
+      {
+        "id": "section-1",
+        "type": "text",
+        "title": "Do You Grind Your Teeth?",
+        "contentLength": 241,
+        "imagesCount": 0,
+        "localImagePaths": [],
+        "imageUrls": []
+      },
+      {
+        "id": "section-2",
+        "type": "text",
+        "title": "Prevent Costly Damage",
+        "contentLength": 89,
+        "imagesCount": 1,
+        "localImagePaths": [
+          "C:\\Users\\SUBARNA MONDAL\\Desktop\\kryptonics\\dental smile\\assets\\service9\\Gemini_Generated_Image_kjxnqykjxnqykjxn (1).png"
+        ],
+        "imageUrls": [
+          "C:\\Users\\SUBARNA MONDAL\\Desktop\\kryptonics\\dental smile\\assets\\service9\\Gemini_Generated_Image_kjxnqykjxnqykjxn (1).png"
+        ]
+      },
+      {
+        "id": "section-3",
+        "type": "text",
+        "title": "Night Guard Options",
+        "contentLength": 235,
+        "imagesCount": 0,
+        "localImagePaths": [],
+        "imageUrls": []
+      },
+      {
+        "id": "section-4",
+        "type": "text",
+        "title": "Getting Your Custom Night Guard",
+        "contentLength": 213,
+        "imagesCount": 1,
+        "localImagePaths": [
+          "C:\\Users\\SUBARNA MONDAL\\Desktop\\kryptonics\\dental smile\\assets\\service9\\Gemini_Generated_Image_ppekw5ppekw5ppek.png"
+        ],
+        "imageUrls": [
+          "C:\\Users\\SUBARNA MONDAL\\Desktop\\kryptonics\\dental smile\\assets\\service9\\Gemini_Generated_Image_ppekw5ppekw5ppek.png"
+        ]
+      },
+      {
+        "id": "section-5",
+        "type": "text",
+        "title": "Night Guard Care",
+        "contentLength": 36,
+        "imagesCount": 0,
+        "localImagePaths": [],
+        "imageUrls": []
+      },
+      {
+        "id": "section-6",
+        "type": "text",
+        "title": "Common Questions",
+        "contentLength": 690,
+        "imagesCount": 0,
+        "localImagePaths": [],
+        "imageUrls": []
+      },
+      {
+        "id": "section-7",
+        "type": "text",
+        "title": "Sleep Peacefully",
+        "contentLength": 106,
+        "imagesCount": 0,
+        "localImagePaths": [],
+        "imageUrls": []
+      }
+    ]
+  },
+  {
+    "id": "69280e2945c9254120538b50",
+    "title": "Dental Bonding",
+    "slug": "dental-bonding",
+    "status": "(no status)",
+    "sectionsCount": 9,
+    "issues": [
+      "Section hero contains local image paths (1)",
+      "Section section-3 contains local image paths (2)",
+      "Section section-4 contains local image paths (1)",
+      "Section section-5 contains local image paths (1)",
+      "Top-level local image path: C:\\Users\\SUBARNA MONDAL\\Desktop\\kryptonics\\dental smile\\assets\\service2\\Gemini_Generated_Image_7k38mu7k38mu7k38.png",
+      "Top-level local image path: C:\\Users\\SUBARNA MONDAL\\Desktop\\kryptonics\\dental smile\\assets\\service2\\Gemini_Generated_Image_7k38mu7k38mu7k38.png"
+    ],
+    "sectionSummaries": [
+      {
+        "id": "hero",
+        "type": "hero",
+        "title": "Dental Bonding",
+        "contentLength": 217,
+        "imagesCount": 1,
+        "localImagePaths": [
+          "C:\\Users\\SUBARNA MONDAL\\Desktop\\kryptonics\\dental smile\\assets\\service2\\Gemini_Generated_Image_7k38mu7k38mu7k38.png"
+        ],
+        "imageUrls": [
+          "C:\\Users\\SUBARNA MONDAL\\Desktop\\kryptonics\\dental smile\\assets\\service2\\Gemini_Generated_Image_7k38mu7k38mu7k38.png"
+        ]
+      },
+      {
+        "id": "section-1",
+        "type": "text",
+        "title": "Composite Bonding in Ottawa",
+        "contentLength": 324,
+        "imagesCount": 0,
+        "localImagePaths": [],
+        "imageUrls": []
+      },
+      {
+        "id": "section-2",
+        "type": "text",
+        "title": "Advantages of Dental Bonding",
+        "contentLength": 80,
+        "imagesCount": 0,
+        "localImagePaths": [],
+        "imageUrls": []
+      },
+      {
+        "id": "section-3",
+        "type": "text",
+        "title": "The Bonding Process",
+        "contentLength": 283,
+        "imagesCount": 2,
+        "localImagePaths": [
+          "C:\\Users\\SUBARNA MONDAL\\Desktop\\kryptonics\\dental smile\\assets\\service2\\Gemini_Generated_Image_nv0tnpnv0tnpnv0t.png",
+          "C:\\Users\\SUBARNA MONDAL\\Desktop\\kryptonics\\dental smile\\assets\\service2\\Gemini_Generated_Image_p5sq99p5sq99p5sq.png"
+        ],
+        "imageUrls": [
+          "C:\\Users\\SUBARNA MONDAL\\Desktop\\kryptonics\\dental smile\\assets\\service2\\Gemini_Generated_Image_nv0tnpnv0tnpnv0t.png",
+          "C:\\Users\\SUBARNA MONDAL\\Desktop\\kryptonics\\dental smile\\assets\\service2\\Gemini_Generated_Image_p5sq99p5sq99p5sq.png"
+        ]
+      },
+      {
+        "id": "section-4",
+        "type": "text",
+        "title": "What to Expect During & After",
+        "contentLength": 385,
+        "imagesCount": 1,
+        "localImagePaths": [
+          "C:\\Users\\SUBARNA MONDAL\\Desktop\\kryptonics\\dental smile\\assets\\service2\\Gemini_Generated_Image_7k38mu7k38mu7k38.png"
+        ],
+        "imageUrls": [
+          "C:\\Users\\SUBARNA MONDAL\\Desktop\\kryptonics\\dental smile\\assets\\service2\\Gemini_Generated_Image_7k38mu7k38mu7k38.png"
+        ]
+      },
+      {
+        "id": "section-5",
+        "type": "text",
+        "title": "Caring for Bonded Teeth",
+        "contentLength": 36,
+        "imagesCount": 1,
+        "localImagePaths": [
+          "C:\\Users\\SUBARNA MONDAL\\Desktop\\kryptonics\\dental smile\\assets\\service2\\Gemini_Generated_Image_d71h8cd71h8cd71h.png"
+        ],
+        "imageUrls": [
+          "C:\\Users\\SUBARNA MONDAL\\Desktop\\kryptonics\\dental smile\\assets\\service2\\Gemini_Generated_Image_d71h8cd71h8cd71h.png"
+        ]
+      },
+      {
+        "id": "section-6",
+        "type": "text",
+        "title": "Bonding vs. Other Options",
+        "contentLength": 123,
+        "imagesCount": 0,
+        "localImagePaths": [],
+        "imageUrls": []
+      },
+      {
+        "id": "section-7",
+        "type": "text",
+        "title": "Common Questions",
+        "contentLength": 757,
+        "imagesCount": 0,
+        "localImagePaths": [],
+        "imageUrls": []
+      },
+      {
+        "id": "section-8",
+        "type": "text",
+        "title": "Visit Smile Health Dental for Quality Bonding",
+        "contentLength": 168,
+        "imagesCount": 0,
+        "localImagePaths": [],
+        "imageUrls": []
+      }
+    ]
+  },
+  {
+    "id": "69280e2a45c9254120538b53",
+    "title": "Dental Crowns",
+    "slug": "dental-crowns",
+    "status": "(no status)",
+    "sectionsCount": 9,
+    "issues": [
+      "Section hero contains local image paths (1)",
+      "Section section-3 contains local image paths (2)",
+      "Section section-5 contains local image paths (2)",
+      "Top-level local image path: C:\\Users\\SUBARNA MONDAL\\Desktop\\kryptonics\\dental smile\\assets\\service3\\Gemini_Generated_Image_cla59acla59acla5.png",
+      "Top-level local image path: C:\\Users\\SUBARNA MONDAL\\Desktop\\kryptonics\\dental smile\\assets\\service3\\Gemini_Generated_Image_cla59acla59acla5.png"
+    ],
+    "sectionSummaries": [
+      {
+        "id": "hero",
+        "type": "hero",
+        "title": "Dental Crowns",
+        "contentLength": 198,
+        "imagesCount": 1,
+        "localImagePaths": [
+          "C:\\Users\\SUBARNA MONDAL\\Desktop\\kryptonics\\dental smile\\assets\\service3\\Gemini_Generated_Image_cla59acla59acla5.png"
+        ],
+        "imageUrls": [
+          "C:\\Users\\SUBARNA MONDAL\\Desktop\\kryptonics\\dental smile\\assets\\service3\\Gemini_Generated_Image_cla59acla59acla5.png"
+        ]
+      },
+      {
+        "id": "section-1",
+        "type": "text",
+        "title": "Dental Crowns in Ottawa",
+        "contentLength": 320,
+        "imagesCount": 0,
+        "localImagePaths": [],
+        "imageUrls": []
+      },
+      {
+        "id": "section-2",
+        "type": "text",
+        "title": "When You Need a Crown",
+        "contentLength": 73,
+        "imagesCount": 0,
+        "localImagePaths": [],
+        "imageUrls": []
+      },
+      {
+        "id": "section-3",
+        "type": "text",
+        "title": "Types of Dental Crowns",
+        "contentLength": 270,
+        "imagesCount": 2,
+        "localImagePaths": [
+          "C:\\Users\\SUBARNA MONDAL\\Desktop\\kryptonics\\dental smile\\assets\\service3\\Gemini_Generated_Image_cla59acla59acla5 (2).png",
+          "C:\\Users\\SUBARNA MONDAL\\Desktop\\kryptonics\\dental smile\\assets\\service3\\Gemini_Generated_Image_cla59acla59acla5 (3).png"
+        ],
+        "imageUrls": [
+          "C:\\Users\\SUBARNA MONDAL\\Desktop\\kryptonics\\dental smile\\assets\\service3\\Gemini_Generated_Image_cla59acla59acla5 (2).png",
+          "C:\\Users\\SUBARNA MONDAL\\Desktop\\kryptonics\\dental smile\\assets\\service3\\Gemini_Generated_Image_cla59acla59acla5 (3).png"
+        ]
+      },
+      {
+        "id": "section-4",
+        "type": "text",
+        "title": "The Crown Process",
+        "contentLength": 303,
+        "imagesCount": 0,
+        "localImagePaths": [],
+        "imageUrls": []
+      },
+      {
+        "id": "section-5",
+        "type": "text",
+        "title": "Care & Eating After Getting a Crown",
+        "contentLength": 355,
+        "imagesCount": 2,
+        "localImagePaths": [
+          "C:\\Users\\SUBARNA MONDAL\\Desktop\\kryptonics\\dental smile\\assets\\service3\\Gemini_Generated_Image_cy48omcy48omcy48.png",
+          "C:\\Users\\SUBARNA MONDAL\\Desktop\\kryptonics\\dental smile\\assets\\service3\\Gemini_Generated_Image_cy48omcy48omcy48.png"
+        ],
+        "imageUrls": [
+          "C:\\Users\\SUBARNA MONDAL\\Desktop\\kryptonics\\dental smile\\assets\\service3\\Gemini_Generated_Image_cy48omcy48omcy48.png",
+          "C:\\Users\\SUBARNA MONDAL\\Desktop\\kryptonics\\dental smile\\assets\\service3\\Gemini_Generated_Image_cy48omcy48omcy48.png"
+        ]
+      },
+      {
+        "id": "section-6",
+        "type": "text",
+        "title": "Crowns & Bridges",
+        "contentLength": 317,
+        "imagesCount": 0,
+        "localImagePaths": [],
+        "imageUrls": []
+      },
+      {
+        "id": "section-7",
+        "type": "text",
+        "title": "Common Questions",
+        "contentLength": 746,
+        "imagesCount": 0,
+        "localImagePaths": [],
+        "imageUrls": []
+      },
+      {
+        "id": "section-8",
+        "type": "text",
+        "title": "Visit Our Dental Office in Nepean",
+        "contentLength": 149,
+        "imagesCount": 0,
+        "localImagePaths": [],
+        "imageUrls": []
+      }
+    ]
+  },
+  {
+    "id": "69280e2a45c9254120538b56",
+    "title": "Teeth Whitening",
+    "slug": "teeth-whitening",
+    "status": "(no status)",
+    "sectionsCount": 8,
+    "issues": [
+      "Section hero contains local image paths (1)",
+      "Section section-2 contains local image paths (2)",
+      "Section section-3 contains local image paths (1)",
+      "Section section-5 contains local image paths (1)",
+      "Top-level local image path: C:\\Users\\SUBARNA MONDAL\\Desktop\\kryptonics\\dental smile\\assets\\service1\\placeholder1.png",
+      "Top-level local image path: C:\\Users\\SUBARNA MONDAL\\Desktop\\kryptonics\\dental smile\\assets\\service1\\placeholder1.png"
+    ],
+    "sectionSummaries": [
+      {
+        "id": "hero",
+        "type": "hero",
+        "title": "Teeth Whitening",
+        "contentLength": 186,
+        "imagesCount": 1,
+        "localImagePaths": [
+          "C:\\Users\\SUBARNA MONDAL\\Desktop\\kryptonics\\dental smile\\assets\\service1\\placeholder1.png"
+        ],
+        "imageUrls": [
+          "C:\\Users\\SUBARNA MONDAL\\Desktop\\kryptonics\\dental smile\\assets\\service1\\placeholder1.png"
+        ]
+      },
+      {
+        "id": "section-1",
+        "type": "text",
+        "title": "Teeth Whitening in Ottawa",
+        "contentLength": 272,
+        "imagesCount": 0,
+        "localImagePaths": [],
+        "imageUrls": []
+      },
+      {
+        "id": "section-2",
+        "type": "text",
+        "title": "Effective Whitening Options",
+        "contentLength": 176,
+        "imagesCount": 2,
+        "localImagePaths": [
+          "C:\\Users\\SUBARNA MONDAL\\Desktop\\kryptonics\\dental smile\\assets\\service1\\placeholder3.png",
+          "C:\\Users\\SUBARNA MONDAL\\Desktop\\kryptonics\\dental smile\\assets\\service1\\placeholder4.png"
+        ],
+        "imageUrls": [
+          "C:\\Users\\SUBARNA MONDAL\\Desktop\\kryptonics\\dental smile\\assets\\service1\\placeholder3.png",
+          "C:\\Users\\SUBARNA MONDAL\\Desktop\\kryptonics\\dental smile\\assets\\service1\\placeholder4.png"
+        ]
+      },
+      {
+        "id": "section-3",
+        "type": "text",
+        "title": "Advanced Whitening Technology",
+        "contentLength": 293,
+        "imagesCount": 1,
+        "localImagePaths": [
+          "C:\\Users\\SUBARNA MONDAL\\Desktop\\kryptonics\\dental smile\\assets\\service1\\placeholder5.png"
+        ],
+        "imageUrls": [
+          "C:\\Users\\SUBARNA MONDAL\\Desktop\\kryptonics\\dental smile\\assets\\service1\\placeholder5.png"
+        ]
+      },
+      {
+        "id": "section-4",
+        "type": "text",
+        "title": "Professional vs Store-Bought",
+        "contentLength": 58,
+        "imagesCount": 0,
+        "localImagePaths": [],
+        "imageUrls": []
+      },
+      {
+        "id": "section-5",
+        "type": "text",
+        "title": "How Long Do Results Last?",
+        "contentLength": 239,
+        "imagesCount": 1,
+        "localImagePaths": [
+          "C:\\Users\\SUBARNA MONDAL\\Desktop\\kryptonics\\dental smile\\assets\\service1\\placeholder6.png"
+        ],
+        "imageUrls": [
+          "C:\\Users\\SUBARNA MONDAL\\Desktop\\kryptonics\\dental smile\\assets\\service1\\placeholder6.png"
+        ]
+      },
+      {
+        "id": "section-6",
+        "type": "text",
+        "title": "Common Questions",
+        "contentLength": 725,
+        "imagesCount": 0,
+        "localImagePaths": [],
+        "imageUrls": []
+      },
+      {
+        "id": "section-7",
+        "type": "text",
+        "title": "Request Your Whitening Consultation",
+        "contentLength": 221,
+        "imagesCount": 0,
+        "localImagePaths": [],
+        "imageUrls": []
+      }
+    ]
+  },
+  {
+    "id": "69280e2a45c9254120538b59",
+    "title": "Dental Veneers",
+    "slug": "dental-veneers",
+    "status": "(no status)",
+    "sectionsCount": 9,
+    "issues": [
+      "Section hero contains local image paths (1)",
+      "Section section-2 contains local image paths (2)",
+      "Section section-5 contains local image paths (2)",
+      "Top-level local image path: C:\\Users\\SUBARNA MONDAL\\Desktop\\kryptonics\\dental smile\\assets\\service4\\Gemini_Generated_Image_3qsvb83qsvb83qsv.png",
+      "Top-level local image path: C:\\Users\\SUBARNA MONDAL\\Desktop\\kryptonics\\dental smile\\assets\\service4\\Gemini_Generated_Image_3qsvb83qsvb83qsv.png"
+    ],
+    "sectionSummaries": [
+      {
+        "id": "hero",
+        "type": "hero",
+        "title": "Dental Veneers",
+        "contentLength": 184,
+        "imagesCount": 1,
+        "localImagePaths": [
+          "C:\\Users\\SUBARNA MONDAL\\Desktop\\kryptonics\\dental smile\\assets\\service4\\Gemini_Generated_Image_3qsvb83qsvb83qsv.png"
+        ],
+        "imageUrls": [
+          "C:\\Users\\SUBARNA MONDAL\\Desktop\\kryptonics\\dental smile\\assets\\service4\\Gemini_Generated_Image_3qsvb83qsvb83qsv.png"
+        ]
+      },
+      {
+        "id": "section-1",
+        "type": "text",
+        "title": "Dental Veneers in Ottawa",
+        "contentLength": 268,
+        "imagesCount": 0,
+        "localImagePaths": [],
+        "imageUrls": []
+      },
+      {
+        "id": "section-2",
+        "type": "text",
+        "title": "Types of Veneers",
+        "contentLength": 277,
+        "imagesCount": 2,
+        "localImagePaths": [
+          "C:\\Users\\SUBARNA MONDAL\\Desktop\\kryptonics\\dental smile\\assets\\service4\\Gemini_Generated_Image_3qsvb83qsvb83qsv (2).png",
+          "C:\\Users\\SUBARNA MONDAL\\Desktop\\kryptonics\\dental smile\\assets\\service4\\Gemini_Generated_Image_3qsvb83qsvb83qsv (3).png"
+        ],
+        "imageUrls": [
+          "C:\\Users\\SUBARNA MONDAL\\Desktop\\kryptonics\\dental smile\\assets\\service4\\Gemini_Generated_Image_3qsvb83qsvb83qsv (2).png",
+          "C:\\Users\\SUBARNA MONDAL\\Desktop\\kryptonics\\dental smile\\assets\\service4\\Gemini_Generated_Image_3qsvb83qsvb83qsv (3).png"
+        ]
+      },
+      {
+        "id": "section-3",
+        "type": "text",
+        "title": "Benefits of Veneers",
+        "contentLength": 50,
+        "imagesCount": 0,
+        "localImagePaths": [],
+        "imageUrls": []
+      },
+      {
+        "id": "section-4",
+        "type": "text",
+        "title": "The Veneer Process",
+        "contentLength": 308,
+        "imagesCount": 0,
+        "localImagePaths": [],
+        "imageUrls": []
+      },
+      {
+        "id": "section-5",
+        "type": "text",
+        "title": "Long-Lasting Aesthetics & Functionality",
+        "contentLength": 226,
+        "imagesCount": 2,
+        "localImagePaths": [
+          "C:\\Users\\SUBARNA MONDAL\\Desktop\\kryptonics\\dental smile\\assets\\service4\\Gemini_Generated_Image_3qsvb83qsvb83qsv (2).png",
+          "C:\\Users\\SUBARNA MONDAL\\Desktop\\kryptonics\\dental smile\\assets\\service4\\Gemini_Generated_Image_3qsvb83qsvb83qsv (3).png"
+        ],
+        "imageUrls": [
+          "C:\\Users\\SUBARNA MONDAL\\Desktop\\kryptonics\\dental smile\\assets\\service4\\Gemini_Generated_Image_3qsvb83qsvb83qsv (2).png",
+          "C:\\Users\\SUBARNA MONDAL\\Desktop\\kryptonics\\dental smile\\assets\\service4\\Gemini_Generated_Image_3qsvb83qsvb83qsv (3).png"
+        ]
+      },
+      {
+        "id": "section-6",
+        "type": "text",
+        "title": "Caring for Your Veneers",
+        "contentLength": 168,
+        "imagesCount": 0,
+        "localImagePaths": [],
+        "imageUrls": []
+      },
+      {
+        "id": "section-7",
+        "type": "text",
+        "title": "Common Questions",
+        "contentLength": 697,
+        "imagesCount": 0,
+        "localImagePaths": [],
+        "imageUrls": []
+      },
+      {
+        "id": "section-8",
+        "type": "text",
+        "title": "Explore Veneer Options in Nepean",
+        "contentLength": 222,
+        "imagesCount": 0,
+        "localImagePaths": [],
+        "imageUrls": []
+      }
+    ]
+  },
+  {
+    "id": "69280e2a45c9254120538b5c",
+    "title": "Invisalign Clear Aligners",
+    "slug": "clear-aligners",
+    "status": "(no status)",
+    "sectionsCount": 9,
+    "issues": [
+      "Section hero contains local image paths (1)",
+      "Section section-2 contains local image paths (1)",
+      "Section section-4 contains local image paths (2)",
+      "Top-level local image path: C:\\Users\\SUBARNA MONDAL\\Desktop\\kryptonics\\dental smile\\assets\\service1\\placeholder1.png",
+      "Top-level local image path: C:\\Users\\SUBARNA MONDAL\\Desktop\\kryptonics\\dental smile\\assets\\service1\\placeholder1.png"
+    ],
+    "sectionSummaries": [
+      {
+        "id": "hero",
+        "type": "hero",
+        "title": "Invisalign Clear Aligners",
+        "contentLength": 200,
+        "imagesCount": 1,
+        "localImagePaths": [
+          "C:\\Users\\SUBARNA MONDAL\\Desktop\\kryptonics\\dental smile\\assets\\service1\\placeholder1.png"
+        ],
+        "imageUrls": [
+          "C:\\Users\\SUBARNA MONDAL\\Desktop\\kryptonics\\dental smile\\assets\\service1\\placeholder1.png"
+        ]
+      },
+      {
+        "id": "section-1",
+        "type": "text",
+        "title": "Get the Ideal Smile",
+        "contentLength": 179,
+        "imagesCount": 0,
+        "localImagePaths": [],
+        "imageUrls": []
+      },
+      {
+        "id": "section-2",
+        "type": "text",
+        "title": "Benefits of Invisalign",
+        "contentLength": 457,
+        "imagesCount": 1,
+        "localImagePaths": [
+          "C:\\Users\\SUBARNA MONDAL\\Desktop\\kryptonics\\dental smile\\assets\\service1\\placeholder3.png"
+        ],
+        "imageUrls": [
+          "C:\\Users\\SUBARNA MONDAL\\Desktop\\kryptonics\\dental smile\\assets\\service1\\placeholder3.png"
+        ]
+      },
+      {
+        "id": "section-3",
+        "type": "text",
+        "title": "The Importance of Clear Aligners",
+        "contentLength": 220,
+        "imagesCount": 0,
+        "localImagePaths": [],
+        "imageUrls": []
+      },
+      {
+        "id": "section-4",
+        "type": "text",
+        "title": "Explore Our Offerings",
+        "contentLength": 513,
+        "imagesCount": 2,
+        "localImagePaths": [
+          "C:\\Users\\SUBARNA MONDAL\\Desktop\\kryptonics\\dental smile\\assets\\service1\\placeholder4.png",
+          "C:\\Users\\SUBARNA MONDAL\\Desktop\\kryptonics\\dental smile\\assets\\service1\\placeholder5.png"
+        ],
+        "imageUrls": [
+          "C:\\Users\\SUBARNA MONDAL\\Desktop\\kryptonics\\dental smile\\assets\\service1\\placeholder4.png",
+          "C:\\Users\\SUBARNA MONDAL\\Desktop\\kryptonics\\dental smile\\assets\\service1\\placeholder5.png"
+        ]
+      },
+      {
+        "id": "section-5",
+        "type": "text",
+        "title": "Is Invisalign Right for You?",
+        "contentLength": 281,
+        "imagesCount": 0,
+        "localImagePaths": [],
+        "imageUrls": []
+      },
+      {
+        "id": "section-6",
+        "type": "text",
+        "title": "How to Get Started",
+        "contentLength": 307,
+        "imagesCount": 0,
+        "localImagePaths": [],
+        "imageUrls": []
+      },
+      {
+        "id": "section-7",
+        "type": "text",
+        "title": "Common Questions",
+        "contentLength": 702,
+        "imagesCount": 0,
+        "localImagePaths": [],
+        "imageUrls": []
+      },
+      {
+        "id": "section-8",
+        "type": "text",
+        "title": "Start Your Journey Today",
+        "contentLength": 219,
+        "imagesCount": 0,
+        "localImagePaths": [],
+        "imageUrls": []
+      }
+    ]
+  },
+  {
+    "id": "69280e2a45c9254120538b5f",
+    "title": "Dental Bridges in Ottawa",
+    "slug": "dental-bridges",
+    "status": "(no status)",
+    "sectionsCount": 7,
+    "issues": [
+      "Section hero contains local image paths (1)",
+      "Top-level local image path: C:\\Users\\SUBARNA MONDAL\\Desktop\\kryptonics\\dental smile\\assets\\service1\\placeholder1.png",
+      "Top-level local image path: C:\\Users\\SUBARNA MONDAL\\Desktop\\kryptonics\\dental smile\\assets\\service1\\placeholder1.png"
+    ],
+    "sectionSummaries": [
+      {
+        "id": "hero",
+        "type": "hero",
+        "title": "Dental Bridges in Ottawa",
+        "contentLength": 258,
+        "imagesCount": 1,
+        "localImagePaths": [
+          "C:\\Users\\SUBARNA MONDAL\\Desktop\\kryptonics\\dental smile\\assets\\service1\\placeholder1.png"
+        ],
+        "imageUrls": [
+          "C:\\Users\\SUBARNA MONDAL\\Desktop\\kryptonics\\dental smile\\assets\\service1\\placeholder1.png"
+        ]
+      },
+      {
+        "id": "section-1",
+        "type": "text",
+        "title": "Dental Bridges in Ottawa",
+        "contentLength": 340,
+        "imagesCount": 0,
+        "localImagePaths": [],
+        "imageUrls": []
+      },
+      {
+        "id": "section-2",
+        "type": "text",
+        "title": "Different Varieties of Dental Bridges",
+        "contentLength": 531,
+        "imagesCount": 0,
+        "localImagePaths": [],
+        "imageUrls": []
+      },
+      {
+        "id": "section-3",
+        "type": "text",
+        "title": "The Dental Bridge Process",
+        "contentLength": 355,
+        "imagesCount": 0,
+        "localImagePaths": [],
+        "imageUrls": []
+      },
+      {
+        "id": "section-4",
+        "type": "text",
+        "title": "Long-Lasting Results with the Right Care",
+        "contentLength": 189,
+        "imagesCount": 0,
+        "localImagePaths": [],
+        "imageUrls": []
+      },
+      {
+        "id": "section-5",
+        "type": "text",
+        "title": "Frequently Asked Questions",
+        "contentLength": 704,
+        "imagesCount": 0,
+        "localImagePaths": [],
+        "imageUrls": []
+      },
+      {
+        "id": "section-6",
+        "type": "text",
+        "title": "Visit Our Nepean Dentist at Smile Health Dental",
+        "contentLength": 214,
+        "imagesCount": 0,
+        "localImagePaths": [],
+        "imageUrls": []
+      }
+    ]
+  },
+  {
+    "id": "69280e2a45c9254120538b62",
+    "title": "Dental Implants in Ottawa",
+    "slug": "dental-implants",
+    "status": "(no status)",
+    "sectionsCount": 7,
+    "issues": [
+      "Section hero contains local image paths (1)",
+      "Top-level local image path: C:\\Users\\SUBARNA MONDAL\\Desktop\\kryptonics\\dental smile\\assets\\service1\\placeholder1.png",
+      "Top-level local image path: C:\\Users\\SUBARNA MONDAL\\Desktop\\kryptonics\\dental smile\\assets\\service1\\placeholder1.png"
+    ],
+    "sectionSummaries": [
+      {
+        "id": "hero",
+        "type": "hero",
+        "title": "Dental Implants in Ottawa",
+        "contentLength": 320,
+        "imagesCount": 1,
+        "localImagePaths": [
+          "C:\\Users\\SUBARNA MONDAL\\Desktop\\kryptonics\\dental smile\\assets\\service1\\placeholder1.png"
+        ],
+        "imageUrls": [
+          "C:\\Users\\SUBARNA MONDAL\\Desktop\\kryptonics\\dental smile\\assets\\service1\\placeholder1.png"
+        ]
+      },
+      {
+        "id": "section-1",
+        "type": "text",
+        "title": "Dental Implants in Ottawa",
+        "contentLength": 247,
+        "imagesCount": 0,
+        "localImagePaths": [],
+        "imageUrls": []
+      },
+      {
+        "id": "section-2",
+        "type": "text",
+        "title": "Why Choose Dental Implants?",
+        "contentLength": 140,
+        "imagesCount": 0,
+        "localImagePaths": [],
+        "imageUrls": []
+      },
+      {
+        "id": "section-3",
+        "type": "text",
+        "title": "Options for Full-Arch Replacement: All-on-Four Implants",
+        "contentLength": 280,
+        "imagesCount": 0,
+        "localImagePaths": [],
+        "imageUrls": []
+      },
+      {
+        "id": "section-4",
+        "type": "text",
+        "title": "Dental Implants for Seniors",
+        "contentLength": 337,
+        "imagesCount": 0,
+        "localImagePaths": [],
+        "imageUrls": []
+      },
+      {
+        "id": "section-5",
+        "type": "text",
+        "title": "Frequently Asked Questions",
+        "contentLength": 774,
+        "imagesCount": 0,
+        "localImagePaths": [],
+        "imageUrls": []
+      },
+      {
+        "id": "section-6",
+        "type": "text",
+        "title": "Visit Your Trusted Dental Clinic Nepean for Implant Solutions",
+        "contentLength": 263,
+        "imagesCount": 0,
+        "localImagePaths": [],
+        "imageUrls": []
+      }
+    ]
+  },
+  {
+    "id": "69280e2a45c9254120538b65",
+    "title": "Partial Dentures in Ottawa",
+    "slug": "partial-dentures",
+    "status": "(no status)",
+    "sectionsCount": 7,
+    "issues": [
+      "Section hero contains local image paths (1)",
+      "Top-level local image path: C:\\Users\\SUBARNA MONDAL\\Desktop\\kryptonics\\dental smile\\assets\\service1\\placeholder1.png",
+      "Top-level local image path: C:\\Users\\SUBARNA MONDAL\\Desktop\\kryptonics\\dental smile\\assets\\service1\\placeholder1.png"
+    ],
+    "sectionSummaries": [
+      {
+        "id": "hero",
+        "type": "hero",
+        "title": "Partial Dentures in Ottawa",
+        "contentLength": 266,
+        "imagesCount": 1,
+        "localImagePaths": [
+          "C:\\Users\\SUBARNA MONDAL\\Desktop\\kryptonics\\dental smile\\assets\\service1\\placeholder1.png"
+        ],
+        "imageUrls": [
+          "C:\\Users\\SUBARNA MONDAL\\Desktop\\kryptonics\\dental smile\\assets\\service1\\placeholder1.png"
+        ]
+      },
+      {
+        "id": "section-1",
+        "type": "text",
+        "title": "Partial Dentures in Ottawa",
+        "contentLength": 300,
+        "imagesCount": 0,
+        "localImagePaths": [],
+        "imageUrls": []
+      },
+      {
+        "id": "section-2",
+        "type": "text",
+        "title": "Types of Dentures We Provide",
+        "contentLength": 492,
+        "imagesCount": 0,
+        "localImagePaths": [],
+        "imageUrls": []
+      },
+      {
+        "id": "section-3",
+        "type": "text",
+        "title": "Comprehensive Denture Services",
+        "contentLength": 298,
+        "imagesCount": 0,
+        "localImagePaths": [],
+        "imageUrls": []
+      },
+      {
+        "id": "section-4",
+        "type": "text",
+        "title": "Benefits of Partial Dentures",
+        "contentLength": 378,
+        "imagesCount": 0,
+        "localImagePaths": [],
+        "imageUrls": []
+      },
+      {
+        "id": "section-5",
+        "type": "text",
+        "title": "Frequently Asked Questions",
+        "contentLength": 746,
+        "imagesCount": 0,
+        "localImagePaths": [],
+        "imageUrls": []
+      },
+      {
+        "id": "section-6",
+        "type": "text",
+        "title": "Contact Your Trusted Dental Clinic Nepean for Denture Care",
+        "contentLength": 257,
+        "imagesCount": 0,
+        "localImagePaths": [],
+        "imageUrls": []
+      }
+    ]
+  },
+  {
+    "id": "69280e2a45c9254120538b68",
+    "title": "TMJ Consult in Ottawa",
+    "slug": "tmj-consult",
+    "status": "(no status)",
+    "sectionsCount": 7,
+    "issues": [
+      "Section hero contains local image paths (1)",
+      "Top-level local image path: C:\\Users\\SUBARNA MONDAL\\Desktop\\kryptonics\\dental smile\\assets\\service1\\placeholder1.png",
+      "Top-level local image path: C:\\Users\\SUBARNA MONDAL\\Desktop\\kryptonics\\dental smile\\assets\\service1\\placeholder1.png"
+    ],
+    "sectionSummaries": [
+      {
+        "id": "hero",
+        "type": "hero",
+        "title": "TMJ Consult in Ottawa",
+        "contentLength": 232,
+        "imagesCount": 1,
+        "localImagePaths": [
+          "C:\\Users\\SUBARNA MONDAL\\Desktop\\kryptonics\\dental smile\\assets\\service1\\placeholder1.png"
+        ],
+        "imageUrls": [
+          "C:\\Users\\SUBARNA MONDAL\\Desktop\\kryptonics\\dental smile\\assets\\service1\\placeholder1.png"
+        ]
+      },
+      {
+        "id": "section-1",
+        "type": "text",
+        "title": "Understanding TMJ Disorders",
+        "contentLength": 370,
+        "imagesCount": 0,
+        "localImagePaths": [],
+        "imageUrls": []
+      },
+      {
+        "id": "section-2",
+        "type": "text",
+        "title": "Personalized TMJ Treatment Options",
+        "contentLength": 127,
+        "imagesCount": 0,
+        "localImagePaths": [],
+        "imageUrls": []
+      },
+      {
+        "id": "section-3",
+        "type": "text",
+        "title": "Benefits of Seeking TMJ Treatment",
+        "contentLength": 284,
+        "imagesCount": 0,
+        "localImagePaths": [],
+        "imageUrls": []
+      },
+      {
+        "id": "section-4",
+        "type": "text",
+        "title": "Our TMJ Treatment Approach",
+        "contentLength": 536,
+        "imagesCount": 0,
+        "localImagePaths": [],
+        "imageUrls": []
+      },
+      {
+        "id": "section-5",
+        "type": "text",
+        "title": "Frequently Asked Questions",
+        "contentLength": 784,
+        "imagesCount": 0,
+        "localImagePaths": [],
+        "imageUrls": []
+      },
+      {
+        "id": "section-6",
+        "type": "text",
+        "title": "Visit Our Dental Office in Nepean",
+        "contentLength": 213,
+        "imagesCount": 0,
+        "localImagePaths": [],
+        "imageUrls": []
+      }
+    ]
+  },
+  {
+    "id": "69280e2a45c9254120538b6b",
+    "title": "Root Canal Therapy in Ottawa",
+    "slug": "root-canal-therapy",
+    "status": "(no status)",
+    "sectionsCount": 8,
+    "issues": [
+      "Section hero contains local image paths (1)",
+      "Section section-2 contains local image paths (1)",
+      "Section section-3 contains local image paths (1)",
+      "Top-level local image path: C:\\Users\\SUBARNA MONDAL\\Desktop\\kryptonics\\dental smile\\assets\\service1\\placeholder1.png",
+      "Top-level local image path: C:\\Users\\SUBARNA MONDAL\\Desktop\\kryptonics\\dental smile\\assets\\service1\\placeholder1.png"
+    ],
+    "sectionSummaries": [
+      {
+        "id": "hero",
+        "type": "hero",
+        "title": "Root Canal Therapy in Ottawa",
+        "contentLength": 270,
+        "imagesCount": 1,
+        "localImagePaths": [
+          "C:\\Users\\SUBARNA MONDAL\\Desktop\\kryptonics\\dental smile\\assets\\service1\\placeholder1.png"
+        ],
+        "imageUrls": [
+          "C:\\Users\\SUBARNA MONDAL\\Desktop\\kryptonics\\dental smile\\assets\\service1\\placeholder1.png"
+        ]
+      },
+      {
+        "id": "section-1",
+        "type": "text",
+        "title": "Why Choose Root Canal Therapy?",
+        "contentLength": 432,
+        "imagesCount": 0,
+        "localImagePaths": [],
+        "imageUrls": []
+      },
+      {
+        "id": "section-2",
+        "type": "text",
+        "title": "When Do You Need a Root Canal?",
+        "contentLength": 367,
+        "imagesCount": 1,
+        "localImagePaths": [
+          "C:\\Users\\SUBARNA MONDAL\\Desktop\\kryptonics\\dental smile\\assets\\service1\\placeholder2.png"
+        ],
+        "imageUrls": [
+          "C:\\Users\\SUBARNA MONDAL\\Desktop\\kryptonics\\dental smile\\assets\\service1\\placeholder2.png"
+        ]
+      },
+      {
+        "id": "section-3",
+        "type": "text",
+        "title": "The Root Canal Process",
+        "contentLength": 454,
+        "imagesCount": 1,
+        "localImagePaths": [
+          "C:\\Users\\SUBARNA MONDAL\\Desktop\\kryptonics\\dental smile\\assets\\service1\\placeholder3.png"
+        ],
+        "imageUrls": [
+          "C:\\Users\\SUBARNA MONDAL\\Desktop\\kryptonics\\dental smile\\assets\\service1\\placeholder3.png"
+        ]
+      },
+      {
+        "id": "section-4",
+        "type": "text",
+        "title": "Advanced Technology for Better Results",
+        "contentLength": 302,
+        "imagesCount": 0,
+        "localImagePaths": [],
+        "imageUrls": []
+      },
+      {
+        "id": "section-5",
+        "type": "text",
+        "title": "Root Canal Aftercare",
+        "contentLength": 90,
+        "imagesCount": 0,
+        "localImagePaths": [],
+        "imageUrls": []
+      },
+      {
+        "id": "section-6",
+        "type": "text",
+        "title": "Frequently Asked Questions",
+        "contentLength": 856,
+        "imagesCount": 0,
+        "localImagePaths": [],
+        "imageUrls": []
+      },
+      {
+        "id": "section-7",
+        "type": "text",
+        "title": "Don't Let Tooth Pain Ruin Your Day",
+        "contentLength": 133,
+        "imagesCount": 0,
+        "localImagePaths": [],
+        "imageUrls": []
+      }
+    ]
+  }
+]

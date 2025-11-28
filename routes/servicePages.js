@@ -22,6 +22,29 @@ const servicePageValidation = [
   body('themeTokens').optional().isObject()
 ];
 
+// @desc    Get published service pages (public)
+// @route   GET /api/service-pages/public
+// @access  Public
+router.get('/public', async (req, res) => {
+  try {
+    const servicePages = await ServicePage.find({ status: 'published' })
+      .sort({ createdAt: -1 })
+      .populate('category')
+      .select('-createdBy -updatedBy');
+
+    res.json({
+      success: true,
+      data: servicePages
+    });
+  } catch (error) {
+    res.status(500).json({
+      success: false,
+      message: 'Server error',
+      error: error.message
+    });
+  }
+});
+
 // @desc    Get all service pages
 // @route   GET /api/service-pages
 // @access  Private
@@ -54,6 +77,7 @@ router.get('/', auth, async (req, res) => {
       .sort({ createdAt: -1 })
       .skip(skip)
       .limit(limit)
+      .populate('category')
       .populate('createdBy', 'name')
       .populate('updatedBy', 'name');
 
@@ -138,6 +162,35 @@ router.get('/slug/:slug', auth, async (req, res) => {
   }
 });
 
+// Default styles for components
+const defaultStyles = {
+  hero: { padding: '5rem 1rem', textAlign: 'center', minHeight: '520px', backgroundSize: 'cover', backgroundPosition: 'center', overlay: { color: 'rgba(0,0,0,0.35)', opacity: 0.35 }, responsive: { sm: { padding: '3rem 1rem', minHeight: '360px' }, md: { padding: '5rem 1rem', minHeight: '480px' }, lg: { padding: '6rem 2rem', minHeight: '520px' } } },
+  imageText: { padding: '4rem 1rem', responsive: { sm: { padding: '2rem 1rem' }, md: { padding: '3rem 1rem' } }, objectFit: 'cover' },
+  iconGrid: { padding: '4rem 1rem', responsive: { sm: { padding: '2rem 1rem' }, md: { padding: '3rem 1rem' } } },
+  text: { padding: '2rem 1rem', maxWidth: '64rem', margin: '0 auto', responsive: { sm: { padding: '1rem' }, md: { padding: '2rem 1rem' } } },
+  image: { padding: '2rem 1rem', objectFit: 'cover' },
+  cta: { padding: '4rem 1rem', textAlign: 'center', responsive: { sm: { padding: '2rem 1rem' }, md: { padding: '3rem 1rem' } } },
+  ctaWithBackground: { padding: '5rem 1rem', textAlign: 'center', minHeight: '400px', backgroundSize: 'cover', backgroundPosition: 'center', responsive: { sm: { padding: '3rem 1rem' }, md: { padding: '4rem 1rem' } } },
+  stats: { padding: '4rem 1rem', responsive: { sm: { padding: '2rem 1rem' } } },
+  testimonials: { padding: '4rem 1rem', responsive: { sm: { padding: '2rem 1rem' } } },
+  faq: { padding: '4rem 1rem', maxWidth: '64rem', margin: '0 auto', responsive: { sm: { padding: '2rem 1rem' } } },
+  pricing: { padding: '4rem 1rem', responsive: { sm: { padding: '2rem 1rem' } } },
+  timeline: { padding: '4rem 1rem', maxWidth: '64rem', margin: '0 auto', responsive: { sm: { padding: '2rem 1rem' } } },
+  numberedList: { padding: '4rem 1rem', responsive: { sm: { padding: '2rem 1rem' } } },
+  featureDetail: { padding: '4rem 1rem', responsive: { sm: { padding: '2rem 1rem' } } },
+};
+
+// Ensure all components have styles
+const ensureComponentStyles = (content) => {
+  if (!Array.isArray(content)) return content;
+  return content.map(component => ({
+    ...component,
+    style: component.style && Object.keys(component.style).length > 0 
+      ? component.style 
+      : (defaultStyles[component.type] || {})
+  }));
+};
+
 // @desc    Create service page
 // @route   POST /api/service-pages
 // @access  Private
@@ -164,8 +217,15 @@ router.post('/', auth, authorize('admin', 'editor'), createLimiter, servicePageV
       return input;
     };
 
+    const sanitizedBody = sanitize(req.body);
+    
+    // Ensure components have styles
+    if (sanitizedBody.content) {
+      sanitizedBody.content = ensureComponentStyles(sanitizedBody.content);
+    }
+
     const servicePageData = {
-      ...sanitize(req.body),
+      ...sanitizedBody,
       createdBy: req.user._id,
       updatedBy: req.user._id
     };
@@ -219,6 +279,11 @@ router.put('/:id', auth, authorize('admin', 'editor'), servicePageValidation, as
     };
 
     const sanitizedBody = sanitize(req.body);
+    
+    // Ensure components have styles
+    if (sanitizedBody.content) {
+      sanitizedBody.content = ensureComponentStyles(sanitizedBody.content);
+    }
 
     const servicePage = await ServicePage.findByIdAndUpdate(
       req.params.id,
