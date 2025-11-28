@@ -2,7 +2,6 @@ const express = require('express');
 const { body } = require('express-validator');
 const sanitizeHtml = require('sanitize-html');
 const { auth, authorize } = require('../middleware/auth');
-const { createLimiter } = require('../middleware/rateLimit');
 const ServicePage = require('../models/ServicePage');
 
 const router = express.Router();
@@ -194,7 +193,7 @@ const ensureComponentStyles = (content) => {
 // @desc    Create service page
 // @route   POST /api/service-pages
 // @access  Private
-router.post('/', auth, authorize('admin', 'editor'), createLimiter, servicePageValidation, async (req, res) => {
+router.post('/', auth, authorize('admin', 'editor'), servicePageValidation, async (req, res) => {
   try {
     // sanitize incoming HTML fields to avoid storing unsafe markup
     const sanitize = (input) => {

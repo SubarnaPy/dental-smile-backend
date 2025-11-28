@@ -4,7 +4,6 @@ const cors = require("cors");
 const helmet = require("helmet");
 const connectDB = require("./config/database");
 const errorHandler = require("./middleware/errorHandler");
-const { apiLimiter } = require("./middleware/rateLimit");
 
 // Import routes
 const authRoutes = require("./routes/auth");

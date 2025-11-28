@@ -2,7 +2,6 @@ const express = require('express');
 const { body } = require('express-validator');
 const sanitizeHtml = require('sanitize-html');
 const { auth, authorize } = require('../middleware/auth');
-const { apiLimiter } = require('../middleware/rateLimit');
 const {
   getEmergencyDentistryPage,
   getEmergencyDentistryPageAdmin,
@@ -27,13 +26,10 @@ const emergencyDentistryValidation = [
   body('cta').optional().isObject()
 ];
 
-// Rate limiter for public routes
-const publicLimiter = apiLimiter; // 100 requests per 15 minutes
-
 // @desc    Get emergency dentistry page (public)
 // @route   GET /api/emergency-dentistry
 // @access  Public
-router.get('/', publicLimiter, getEmergencyDentistryPage);
+router.get('/', getEmergencyDentistryPage);
 
 // @desc    Get emergency dentistry page (admin)
 // @route   GET /api/emergency-dentistry/admin

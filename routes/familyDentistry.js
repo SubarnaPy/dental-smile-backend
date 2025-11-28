@@ -2,7 +2,6 @@ const express = require('express');
 const { body } = require('express-validator');
 const sanitizeHtml = require('sanitize-html');
 const { auth, authorize } = require('../middleware/auth');
-const { apiLimiter } = require('../middleware/rateLimit');
 const {
   getFamilyDentistryPage,
   getFamilyDentistryPageAdmin,
@@ -27,13 +26,10 @@ const familyDentistryValidation = [
   body('cta').optional().isObject()
 ];
 
-// Rate limiter for public routes
-const publicLimiter = apiLimiter; // 100 requests per 15 minutes
-
 // @desc    Get family dentistry page (public)
 // @route   GET /api/family-dentistry
 // @access  Public
-router.get('/', publicLimiter, getFamilyDentistryPage);
+router.get('/', getFamilyDentistryPage);
 
 // @desc    Get family dentistry page (admin)
 // @route   GET /api/family-dentistry/admin

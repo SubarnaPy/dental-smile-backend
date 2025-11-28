@@ -1,7 +1,6 @@
 const express = require('express');
 const { body } = require('express-validator');
 const { auth, authorize } = require('../middleware/auth');
-const { authLimiter } = require('../middleware/rateLimit');
 const {
   register,
   login,
@@ -35,8 +34,8 @@ const changePasswordValidation = [
 ];
 
 // Public routes
-router.post('/register', authLimiter, registerValidation, register);
-router.post('/login', authLimiter, loginValidation, login);
+router.post('/register', registerValidation, register);
+router.post('/login', loginValidation, login);
 
 // Protected routes
 router.get('/me', auth, getMe);

@@ -1,7 +1,6 @@
 const express = require('express');
 const { body } = require('express-validator');
 const { auth, authorize } = require('../middleware/auth');
-const { createLimiter } = require('../middleware/rateLimit');
 const {
   getBlogs,
   getBlog,
@@ -60,7 +59,7 @@ router.get('/:id', getBlog);
 router.get('/:id/preview', auth, authorize('admin', 'editor'), previewBlog);
 
 // Protected routes - require authentication and proper authorization
-router.post('/', auth, createLimiter, blogValidation, authorize('admin', 'editor'), createBlog);
+router.post('/', auth, blogValidation, authorize('admin', 'editor'), createBlog);
 router.put('/:id', auth, blogValidation, authorize('admin', 'editor'), updateBlog);
 router.patch('/:id/publish', auth, authorize('admin', 'editor'), togglePublish);
 router.post('/:id/draft', auth, blogValidation, authorize('admin', 'editor'), saveDraft);
