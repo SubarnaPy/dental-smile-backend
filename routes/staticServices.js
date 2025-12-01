@@ -78,6 +78,13 @@ router.patch(
   staticServiceController.updateSectionOrder
 );
 
+// PATCH /api/static-services/:serviceKey/unified-order - Update unified order (sections + components)
+router.patch(
+  "/:serviceKey/unified-order",
+  // protect, admin,
+  staticServiceController.updateUnifiedOrder
+);
+
 // ============================================================================
 // SECTION ITEM MANAGEMENT ROUTES
 // ============================================================================
@@ -180,6 +187,66 @@ router.post(
   "/:serviceKey/duplicate",
   // protect, admin,
   staticServiceController.duplicateService
+);
+
+// ============================================================================
+// RESET & TEMPLATE ROUTES
+// ============================================================================
+
+// POST /api/static-services/:serviceKey/reset-page - Reset entire page to defaults
+router.post(
+  "/:serviceKey/reset-page",
+  // protect, admin,
+  staticServiceController.resetEntirePage
+);
+
+// POST /api/static-services/:serviceKey/add-template - Add template components to page
+router.post(
+  "/:serviceKey/add-template",
+  // protect, admin,
+  staticServiceController.addTemplateToPage
+);
+
+// POST /api/static-services/:serviceKey/add-custom-component - Add a custom component
+router.post(
+  "/:serviceKey/add-custom-component",
+  // protect, admin,
+  staticServiceController.addCustomComponent
+);
+
+// DELETE /api/static-services/:serviceKey/custom-component/:componentId - Remove custom component
+router.delete(
+  "/:serviceKey/custom-component/:componentId",
+  // protect, admin,
+  staticServiceController.removeCustomComponent
+);
+
+// PATCH /api/static-services/:serviceKey/reorder-custom-components - Reorder custom components
+router.patch(
+  "/:serviceKey/reorder-custom-components",
+  // protect, admin,
+  staticServiceController.reorderCustomComponents
+);
+
+// PUT /api/static-services/:serviceKey/custom-component/:componentId - Update custom component
+router.put(
+  "/:serviceKey/custom-component/:componentId",
+  // protect, admin,
+  staticServiceController.updateCustomComponent
+);
+
+// PATCH /api/static-services/:serviceKey/custom-component/:componentId - Partial update custom component
+router.patch(
+  "/:serviceKey/custom-component/:componentId",
+  // protect, admin,
+  staticServiceController.updateCustomComponent
+);
+
+// GET /api/static-services/:serviceKey/custom-components - Get all custom components
+router.get(
+  "/:serviceKey/custom-components",
+  // protect, admin,
+  staticServiceController.getCustomComponents
 );
 
 module.exports = router;

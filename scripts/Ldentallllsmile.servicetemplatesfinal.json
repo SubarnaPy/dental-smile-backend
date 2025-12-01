@@ -1,0 +1,2301 @@
+[{
+  "_id": {
+    "$oid": "69269aa4448a6ecb7a7ebf0b"
+  },
+  "name": "Simple Hero",
+  "description": "Clean hero with title, subtitle, and CTA button",
+  "category": "Hero Sections",
+  "content": [
+    {
+      "id": "69269b2f4437017d8e2fe4ec",
+      "type": "hero",
+      "data": {
+        "title": "Welcome to Our Service",
+        "subtitle": "We provide exceptional solutions for your needs",
+        "buttonText": "Get Started",
+        "buttonLink": "#contact",
+        "backgroundImage": "",
+        "textAlign": "center"
+      },
+      "style": {
+        "padding": "5rem 1rem",
+        "textAlign": "center",
+        "minHeight": "520px",
+        "overlay": {
+          "color": "rgba(0,0,0,0.35)",
+          "opacity": 0.35
+        }
+      }
+    }
+  ],
+  "previewImage": "/placeholder.svg",
+  "thumbnailUrl": null,
+  "themeTokens": null,
+  "isPremium": false,
+  "usageCount": 0,
+  "tags": [],
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-11-26T06:13:56.092Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-26T06:21:43.122Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69269aa4448a6ecb7a7ebf0f"
+  },
+  "name": "Hero with Image",
+  "description": "Hero section with text on left and image on right",
+  "category": "Hero Sections",
+  "content": [
+    {
+      "id": "69269b2f4437017d8e2fe4ef",
+      "type": "imageText",
+      "data": {
+        "heading": "Transform Your Business",
+        "content": "We help businesses grow with innovative solutions and expert guidance.",
+        "imageUrl": "/placeholder.svg",
+        "imagePosition": "right",
+        "buttonText": "Learn More",
+        "buttonLink": "#about",
+        "backgroundColor": "bg-background"
+      },
+      "style": {
+        "padding": "4rem 1rem",
+        "objectFit": "cover"
+      }
+    }
+  ],
+  "previewImage": "/placeholder.svg",
+  "thumbnailUrl": null,
+  "themeTokens": null,
+  "isPremium": false,
+  "usageCount": 0,
+  "tags": [],
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-11-26T06:13:56.184Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-26T06:21:43.170Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69269aa4448a6ecb7a7ebf13"
+  },
+  "name": "Complete Service Page",
+  "description": "Complete service page with hero, features, process, and CTA",
+  "category": "Full Pages",
+  "content": [
+    {
+      "id": "69269b2f4437017d8e2fe4f1",
+      "type": "hero",
+      "data": {
+        "title": "Emergency Dentistry",
+        "subtitle": "Available 24/7 for dental emergencies. Our experienced team provides prompt, compassionate care when you need it most.",
+        "buttonText": "Call for Emergency Care",
+        "buttonLink": "tel:555-0123",
+        "badge": "EMERGENCY CARE",
+        "textAlign": "left"
+      },
+      "style": {
+        "padding": "5rem 1rem",
+        "textAlign": "center",
+        "minHeight": "520px",
+        "overlay": {
+          "color": "rgba(0,0,0,0.35)",
+          "opacity": 0.35
+        }
+      }
+    },
+    {
+      "id": "69269b2f4437017d8e2fe4f2",
+      "type": "iconGrid",
+      "data": {
+        "heading": "Why Emergency Care Matters",
+        "description": "Dental emergencies require immediate attention to relieve pain and prevent serious complications.",
+        "columns": 3,
+        "items": [
+          {
+            "icon": "shield",
+            "title": "Immediate Relief",
+            "description": "Get fast pain relief and emergency treatment when you need it most",
+            "iconColor": "text-primary"
+          },
+          {
+            "icon": "heart",
+            "title": "Prevent Complications",
+            "description": "Prompt treatment prevents infections from spreading and causing serious health issues",
+            "iconColor": "text-accent"
+          },
+          {
+            "icon": "zap",
+            "title": "Save Your Teeth",
+            "description": "Quick action can save a knocked-out tooth or prevent permanent damage to your smile",
+            "iconColor": "text-success"
+          }
+        ]
+      },
+      "style": {
+        "padding": "4rem 1rem"
+      }
+    },
+    {
+      "id": "69269b2f4437017d8e2fe4f3",
+      "type": "numberedList",
+      "data": {
+        "heading": "Common Dental Emergencies We Treat",
+        "description": "Our emergency dental team helps with serious urgent issues to relieve pain and prevent complications.",
+        "imageUrl": "/placeholder.svg",
+        "imagePosition": "right",
+        "items": [
+          {
+            "title": "Severe Toothache & Abscesses",
+            "description": "Persistent pain or infection requiring immediate treatment to prevent spread",
+            "iconColor": "text-info"
+          },
+          {
+            "title": "Broken or Cracked Teeth",
+            "description": "Damage from accidents requiring urgent restoration and protection",
+            "iconColor": "text-warning"
+          },
+          {
+            "title": "Knocked-Out Teeth",
+            "description": "Rapid treatment can save your tooth when acted upon immediately",
+            "iconColor": "text-success"
+          },
+          {
+            "title": "Lost Fillings & Crowns",
+            "description": "Quick replacement to restore protection and prevent further damage",
+            "iconColor": "text-accent"
+          }
+        ]
+      },
+      "style": {}
+    },
+    {
+      "id": "69269b2f4437017d8e2fe4f4",
+      "type": "timeline",
+      "data": {
+        "heading": "What to Expect During Your Visit",
+        "items": [
+          {
+            "title": "Quick Assessment",
+            "description": "We prioritize immediate evaluation and pain relief for all emergency cases",
+            "iconColor": "text-info"
+          },
+          {
+            "title": "Effective Treatment",
+            "description": "Fast and effective treatment using advanced technology and proven techniques",
+            "iconColor": "text-warning"
+          },
+          {
+            "title": "Expert Care",
+            "description": "Dr. Dhaliwal provides compassionate and professional emergency dental care",
+            "iconColor": "text-success"
+          },
+          {
+            "title": "Follow-up Plan",
+            "description": "Receive comprehensive instructions and a plan for any ongoing treatment",
+            "iconColor": "text-accent"
+          }
+        ]
+      },
+      "style": {}
+    },
+    {
+      "id": "69269b2f4437017d8e2fe4f5",
+      "type": "ctaWithBackground",
+      "data": {
+        "heading": "Need Emergency Dental Care?",
+        "description": "Don't suffer through dental pain. Contact us immediately for prompt, professional emergency dental care.",
+        "buttonText": "Call for Emergency Care",
+        "buttonLink": "tel:555-0123",
+        "backgroundImage": "/placeholder.svg",
+        "overlay": true
+      },
+      "style": {}
+    }
+  ],
+  "previewImage": "/placeholder.svg",
+  "thumbnailUrl": null,
+  "themeTokens": null,
+  "isPremium": false,
+  "usageCount": 0,
+  "tags": [],
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-11-26T06:13:56.265Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-26T06:21:43.216Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69269aa4448a6ecb7a7ebf16"
+  },
+  "name": "3-Column Features",
+  "description": "Feature grid with icons in 3 columns",
+  "category": "Feature Sections",
+  "content": [
+    {
+      "id": "69269b2f4437017d8e2fe4f9",
+      "type": "iconGrid",
+      "data": {
+        "heading": "Why Choose Us",
+        "description": "We provide exceptional service with proven results",
+        "columns": 3,
+        "items": [
+          {
+            "icon": "check",
+            "title": "Quality Service",
+            "description": "Top-notch quality in everything we do",
+            "iconColor": "text-primary"
+          },
+          {
+            "icon": "zap",
+            "title": "Fast Delivery",
+            "description": "Quick turnaround times guaranteed",
+            "iconColor": "text-accent"
+          },
+          {
+            "icon": "shield",
+            "title": "Secure & Safe",
+            "description": "Your data and privacy protected",
+            "iconColor": "text-success"
+          }
+        ]
+      },
+      "style": {
+        "padding": "4rem 1rem"
+      }
+    }
+  ],
+  "previewImage": "/placeholder.svg",
+  "thumbnailUrl": null,
+  "themeTokens": null,
+  "isPremium": false,
+  "usageCount": 0,
+  "tags": [],
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-11-26T06:13:56.348Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-26T06:21:43.263Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69269aa4448a6ecb7a7ebf1a"
+  },
+  "name": "4-Column Features",
+  "description": "Feature grid with icons in 4 columns",
+  "category": "Feature Sections",
+  "content": [
+    {
+      "id": "69269b2f4437017d8e2fe4fb",
+      "type": "iconGrid",
+      "data": {
+        "heading": "Our Benefits",
+        "columns": 4,
+        "items": [
+          {
+            "icon": "star",
+            "title": "Premium Quality",
+            "description": "Excellence in every detail",
+            "iconColor": "text-warning"
+          },
+          {
+            "icon": "users",
+            "title": "Expert Team",
+            "description": "Skilled professionals",
+            "iconColor": "text-info"
+          },
+          {
+            "icon": "clock",
+            "title": "24/7 Support",
+            "description": "Always here for you",
+            "iconColor": "text-success"
+          },
+          {
+            "icon": "award",
+            "title": "Proven Results",
+            "description": "Track record of success",
+            "iconColor": "text-primary"
+          }
+        ]
+      },
+      "style": {
+        "padding": "4rem 1rem"
+      }
+    }
+  ],
+  "previewImage": "/placeholder.svg",
+  "thumbnailUrl": null,
+  "themeTokens": null,
+  "isPremium": false,
+  "usageCount": 0,
+  "tags": [],
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-11-26T06:13:56.429Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-26T06:21:43.307Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69269aa4448a6ecb7a7ebf1d"
+  },
+  "name": "Image Left, Text Right",
+  "description": "Image on left side with text content on right",
+  "category": "Content Sections",
+  "content": [
+    {
+      "id": "69269b2f4437017d8e2fe4fe",
+      "type": "imageText",
+      "data": {
+        "heading": "About Our Service",
+        "content": "Learn more about how we can help you achieve your goals with our proven approach and dedicated team.",
+        "imageUrl": "/placeholder.svg",
+        "imagePosition": "left",
+        "buttonText": "Read More",
+        "buttonLink": "#",
+        "backgroundColor": "bg-background"
+      },
+      "style": {
+        "padding": "4rem 1rem",
+        "objectFit": "cover"
+      }
+    }
+  ],
+  "previewImage": "/placeholder.svg",
+  "thumbnailUrl": null,
+  "themeTokens": null,
+  "isPremium": false,
+  "usageCount": 0,
+  "tags": [],
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-11-26T06:13:56.510Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-26T06:21:43.352Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69269aa4448a6ecb7a7ebf20"
+  },
+  "name": "Text Left, Image Right",
+  "description": "Text content on left with image on right",
+  "category": "Content Sections",
+  "content": [
+    {
+      "id": "69269b2f4437017d8e2fe501",
+      "type": "imageText",
+      "data": {
+        "heading": "Our Approach",
+        "content": "We combine innovation with expertise to deliver outstanding results for every client.",
+        "imageUrl": "/placeholder.svg",
+        "imagePosition": "right",
+        "buttonText": "Get Started",
+        "buttonLink": "#contact",
+        "backgroundColor": "bg-muted"
+      },
+      "style": {
+        "padding": "4rem 1rem",
+        "objectFit": "cover"
+      }
+    }
+  ],
+  "previewImage": "/placeholder.svg",
+  "thumbnailUrl": null,
+  "themeTokens": null,
+  "isPremium": false,
+  "usageCount": 0,
+  "tags": [],
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-11-26T06:13:56.591Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-26T06:21:43.397Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69269aa4448a6ecb7a7ebf23"
+  },
+  "name": "Numbered List with Image",
+  "description": "Numbered list with image on the side",
+  "category": "List Sections",
+  "content": [
+    {
+      "id": "69269b2f4437017d8e2fe503",
+      "type": "numberedList",
+      "data": {
+        "heading": "Our Process",
+        "description": "Follow our simple step-by-step process",
+        "imageUrl": "/placeholder.svg",
+        "imagePosition": "right",
+        "items": [
+          {
+            "title": "Discovery",
+            "description": "We learn about your needs and goals",
+            "iconColor": "text-info"
+          },
+          {
+            "title": "Planning",
+            "description": "Create a customized strategy",
+            "iconColor": "text-warning"
+          },
+          {
+            "title": "Execution",
+            "description": "Implement the solution",
+            "iconColor": "text-success"
+          },
+          {
+            "title": "Results",
+            "description": "Measure and optimize outcomes",
+            "iconColor": "text-accent"
+          }
+        ]
+      },
+      "style": {}
+    }
+  ],
+  "previewImage": "/placeholder.svg",
+  "thumbnailUrl": null,
+  "themeTokens": null,
+  "isPremium": false,
+  "usageCount": 0,
+  "tags": [],
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-11-26T06:13:56.671Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-26T06:21:43.444Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69269aa4448a6ecb7a7ebf26"
+  },
+  "name": "Vertical Timeline",
+  "description": "Vertical timeline with colored accents",
+  "category": "Timeline",
+  "content": [
+    {
+      "id": "69269b2f4437017d8e2fe505",
+      "type": "timeline",
+      "data": {
+        "heading": "How It Works",
+        "items": [
+          {
+            "title": "Step 1: Setup",
+            "description": "Quick and easy initial setup",
+            "iconColor": "text-info"
+          },
+          {
+            "title": "Step 2: Configure",
+            "description": "Customize to your needs",
+            "iconColor": "text-warning"
+          },
+          {
+            "title": "Step 3: Launch",
+            "description": "Go live with confidence",
+            "iconColor": "text-success"
+          },
+          {
+            "title": "Step 4: Optimize",
+            "description": "Continuous improvement",
+            "iconColor": "text-accent"
+          }
+        ]
+      },
+      "style": {}
+    }
+  ],
+  "previewImage": "/placeholder.svg",
+  "thumbnailUrl": null,
+  "themeTokens": null,
+  "isPremium": false,
+  "usageCount": 0,
+  "tags": [],
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-11-26T06:13:56.754Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-26T06:21:43.490Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69269aa4448a6ecb7a7ebf29"
+  },
+  "name": "Simple CTA",
+  "description": "Clean CTA section with heading and button",
+  "category": "Call to Action",
+  "content": [
+    {
+      "id": "69269b2f4437017d8e2fe508",
+      "type": "cta",
+      "data": {
+        "heading": "Ready to Get Started?",
+        "description": "Join thousands of satisfied customers today",
+        "buttonText": "Start Now",
+        "buttonLink": "#signup",
+        "backgroundColor": "bg-primary/5"
+      },
+      "style": {
+        "padding": "4rem 1rem",
+        "textAlign": "center"
+      }
+    }
+  ],
+  "previewImage": "/placeholder.svg",
+  "thumbnailUrl": null,
+  "themeTokens": null,
+  "isPremium": false,
+  "usageCount": 0,
+  "tags": [],
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-11-26T06:13:56.837Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-26T06:21:43.545Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69269aa4448a6ecb7a7ebf2c"
+  },
+  "name": "CTA with Background",
+  "description": "CTA with background image and overlay",
+  "category": "Call to Action",
+  "content": [
+    {
+      "id": "69269b2f4437017d8e2fe50a",
+      "type": "ctaWithBackground",
+      "data": {
+        "heading": "Transform Your Business Today",
+        "description": "Get started with our proven solutions",
+        "buttonText": "Contact Us Now",
+        "buttonLink": "#contact",
+        "backgroundImage": "/placeholder.svg",
+        "overlay": true
+      },
+      "style": {}
+    }
+  ],
+  "previewImage": "/placeholder.svg",
+  "thumbnailUrl": null,
+  "themeTokens": null,
+  "isPremium": false,
+  "usageCount": 0,
+  "tags": [],
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-11-26T06:13:56.918Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-26T06:21:43.590Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69269aa4448a6ecb7a7ebf2f"
+  },
+  "name": "Statistics Grid",
+  "description": "4-column statistics display",
+  "category": "Statistics",
+  "content": [
+    {
+      "id": "69269b2f4437017d8e2fe50d",
+      "type": "stats",
+      "data": {
+        "heading": "Our Impact",
+        "items": [
+          {
+            "value": "10K+",
+            "label": "Happy Clients",
+            "iconColor": "text-primary"
+          },
+          {
+            "value": "98%",
+            "label": "Success Rate",
+            "iconColor": "text-success"
+          },
+          {
+            "value": "24/7",
+            "label": "Support",
+            "iconColor": "text-info"
+          },
+          {
+            "value": "15+",
+            "label": "Years Experience",
+            "iconColor": "text-accent"
+          }
+        ]
+      },
+      "style": {}
+    }
+  ],
+  "previewImage": "/placeholder.svg",
+  "thumbnailUrl": null,
+  "themeTokens": null,
+  "isPremium": false,
+  "usageCount": 0,
+  "tags": [],
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-11-26T06:13:57.000Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-26T06:21:43.634Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69269aa5448a6ecb7a7ebf32"
+  },
+  "name": "Testimonials Grid",
+  "description": "Grid layout for customer testimonials",
+  "category": "Testimonials",
+  "content": [
+    {
+      "id": "69269b2f4437017d8e2fe50f",
+      "type": "testimonials",
+      "data": {
+        "heading": "What Our Clients Say",
+        "layout": "grid",
+        "items": [
+          {
+            "name": "John Smith",
+            "quote": "Excellent service and outstanding results!",
+            "role": "CEO, Tech Corp",
+            "rating": 5
+          },
+          {
+            "name": "Sarah Johnson",
+            "quote": "Highly recommended for anyone looking for quality.",
+            "role": "Marketing Director",
+            "rating": 5
+          },
+          {
+            "name": "Mike Davis",
+            "quote": "Professional team that delivers on promises.",
+            "role": "Business Owner",
+            "rating": 5
+          }
+        ]
+      },
+      "style": {}
+    }
+  ],
+  "previewImage": "/placeholder.svg",
+  "thumbnailUrl": null,
+  "themeTokens": null,
+  "isPremium": false,
+  "usageCount": 0,
+  "tags": [],
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-11-26T06:13:57.081Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-26T06:21:43.679Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69269aa5448a6ecb7a7ebf35"
+  },
+  "name": "FAQ Accordion",
+  "description": "Expandable FAQ section",
+  "category": "FAQ",
+  "content": [
+    {
+      "id": "69269b2f4437017d8e2fe511",
+      "type": "faq",
+      "data": {
+        "heading": "Frequently Asked Questions",
+        "items": [
+          {
+            "question": "What services do you offer?",
+            "answer": "We offer a comprehensive range of services tailored to meet your needs."
+          },
+          {
+            "question": "How long does it take?",
+            "answer": "Timeline varies based on project scope, typically 2-4 weeks."
+          },
+          {
+            "question": "What are your prices?",
+            "answer": "We offer competitive pricing with custom quotes for each project."
+          },
+          {
+            "question": "Do you offer support?",
+            "answer": "Yes, we provide 24/7 support for all our clients."
+          }
+        ]
+      },
+      "style": {}
+    }
+  ],
+  "previewImage": "/placeholder.svg",
+  "thumbnailUrl": null,
+  "themeTokens": null,
+  "isPremium": false,
+  "usageCount": 0,
+  "tags": [],
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-11-26T06:13:57.162Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-26T06:21:43.723Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69269aa5448a6ecb7a7ebf38"
+  },
+  "name": "3-Tier Pricing",
+  "description": "Three pricing tiers side by side",
+  "category": "Pricing",
+  "content": [
+    {
+      "id": "69269b2f4437017d8e2fe513",
+      "type": "pricing",
+      "data": {
+        "heading": "Choose Your Plan",
+        "plans": [
+          {
+            "name": "Basic",
+            "price": "$29",
+            "period": "/month",
+            "features": [
+              "5 Projects",
+              "Basic Support",
+              "10GB Storage"
+            ],
+            "buttonText": "Get Started",
+            "highlighted": false
+          },
+          {
+            "name": "Pro",
+            "price": "$79",
+            "period": "/month",
+            "features": [
+              "Unlimited Projects",
+              "Priority Support",
+              "100GB Storage",
+              "Advanced Analytics"
+            ],
+            "buttonText": "Get Started",
+            "highlighted": true
+          },
+          {
+            "name": "Enterprise",
+            "price": "$199",
+            "period": "/month",
+            "features": [
+              "Unlimited Everything",
+              "24/7 Dedicated Support",
+              "Unlimited Storage",
+              "Custom Integrations"
+            ],
+            "buttonText": "Contact Sales",
+            "highlighted": false
+          }
+        ]
+      },
+      "style": {}
+    }
+  ],
+  "previewImage": "/placeholder.svg",
+  "thumbnailUrl": null,
+  "themeTokens": null,
+  "isPremium": false,
+  "usageCount": 0,
+  "tags": [],
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-11-26T06:13:57.246Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-26T06:21:43.768Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69269aa5448a6ecb7a7ebf3b"
+  },
+  "name": "Technology Features",
+  "description": "Highlight technology and tools",
+  "category": "Technology",
+  "content": [
+    {
+      "id": "69269b2f4437017d8e2fe515",
+      "type": "iconGrid",
+      "data": {
+        "heading": "Why We Invest in Technology",
+        "description": "Every tool and system in our practice serves a single purpose: to deliver the best possible care to you",
+        "columns": 3,
+        "items": [
+          {
+            "icon": "shield",
+            "title": "Safety First",
+            "description": "Advanced technology allows us to minimize radiation exposure, reduce discomfort, and lower the risk of complications. Your safety is always our priority.",
+            "iconColor": "text-info"
+          },
+          {
+            "icon": "eye",
+            "title": "Early Detection",
+            "description": "High-resolution imaging and precise diagnostics help us catch problems early—often before you experience any symptoms.",
+            "iconColor": "text-warning"
+          },
+          {
+            "icon": "activity",
+            "title": "Better Outcomes",
+            "description": "Precision tools and digital planning lead to more accurate treatments, faster healing, and longer-lasting results.",
+            "iconColor": "text-success"
+          }
+        ]
+      },
+      "style": {
+        "padding": "4rem 1rem"
+      }
+    }
+  ],
+  "previewImage": "/placeholder.svg",
+  "thumbnailUrl": null,
+  "themeTokens": null,
+  "isPremium": false,
+  "usageCount": 0,
+  "tags": [],
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-11-26T06:13:57.325Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-26T06:21:43.814Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69269aa5448a6ecb7a7ebf3e"
+  },
+  "name": "Feature Detail - Image Left",
+  "description": "Detailed feature with checklist and image on left",
+  "category": "Feature Details",
+  "content": [
+    {
+      "id": "69269b2f4437017d8e2fe517",
+      "type": "featureDetail",
+      "data": {
+        "heading": "Digital X-Ray Sensor",
+        "content": "Digital x-rays help us diagnose problems quickly and safely by providing high-resolution images with significantly lower radiation exposure than traditional film.",
+        "imageUrl": "/placeholder.svg",
+        "imagePosition": "left",
+        "features": [
+          "Fast Detection - Detect cavities, bone loss, and infection—often before symptoms appear",
+          "Lower Radiation - Reduced exposure while maintaining excellent image quality",
+          "Instant Imaging - Real-time images displayed on screen so you can see exactly what we see",
+          "Informed Decisions - Clear visualization builds confidence in your treatment plan"
+        ]
+      },
+      "style": {}
+    }
+  ],
+  "previewImage": "/placeholder.svg",
+  "thumbnailUrl": null,
+  "themeTokens": null,
+  "isPremium": false,
+  "usageCount": 0,
+  "tags": [],
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-11-26T06:13:57.409Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-26T06:21:43.859Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69269aa5448a6ecb7a7ebf41"
+  },
+  "name": "About Us Page",
+  "description": "Complete about us page layout",
+  "category": "Full Pages",
+  "content": [
+    {
+      "id": "69269b2f4437017d8e2fe519",
+      "type": "hero",
+      "data": {
+        "title": "About Our Company",
+        "subtitle": "Learn about our mission, values, and the team behind our success",
+        "textAlign": "center"
+      },
+      "style": {
+        "padding": "5rem 1rem",
+        "textAlign": "center",
+        "minHeight": "520px",
+        "overlay": {
+          "color": "rgba(0,0,0,0.35)",
+          "opacity": 0.35
+        }
+      }
+    },
+    {
+      "id": "69269b2f4437017d8e2fe51a",
+      "type": "imageText",
+      "data": {
+        "heading": "Our Story",
+        "content": "Founded with a vision to make a difference, we've grown into a trusted partner for businesses worldwide. Our journey began with a simple idea: to provide exceptional service that truly makes an impact.",
+        "imageUrl": "/placeholder.svg",
+        "imagePosition": "right",
+        "backgroundColor": "bg-background"
+      },
+      "style": {
+        "padding": "4rem 1rem",
+        "objectFit": "cover"
+      }
+    },
+    {
+      "id": "69269b2f4437017d8e2fe51b",
+      "type": "stats",
+      "data": {
+        "heading": "Our Achievements",
+        "items": [
+          {
+            "value": "15+",
+            "label": "Years Experience",
+            "iconColor": "text-primary"
+          },
+          {
+            "value": "500+",
+            "label": "Projects Completed",
+            "iconColor": "text-success"
+          },
+          {
+            "value": "50+",
+            "label": "Team Members",
+            "iconColor": "text-info"
+          },
+          {
+            "value": "98%",
+            "label": "Client Satisfaction",
+            "iconColor": "text-accent"
+          }
+        ]
+      },
+      "style": {}
+    },
+    {
+      "id": "69269b2f4437017d8e2fe51c",
+      "type": "iconGrid",
+      "data": {
+        "heading": "Our Values",
+        "columns": 3,
+        "items": [
+          {
+            "icon": "heart",
+            "title": "Customer First",
+            "description": "Your success is our priority",
+            "iconColor": "text-primary"
+          },
+          {
+            "icon": "shield",
+            "title": "Integrity",
+            "description": "Honest and transparent always",
+            "iconColor": "text-success"
+          },
+          {
+            "icon": "zap",
+            "title": "Innovation",
+            "description": "Constantly improving and evolving",
+            "iconColor": "text-accent"
+          }
+        ]
+      },
+      "style": {
+        "padding": "4rem 1rem"
+      }
+    }
+  ],
+  "previewImage": "/placeholder.svg",
+  "thumbnailUrl": null,
+  "themeTokens": null,
+  "isPremium": false,
+  "usageCount": 0,
+  "tags": [],
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-11-26T06:13:57.488Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-26T06:21:43.903Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69269aa5448a6ecb7a7ebf44"
+  },
+  "name": "Contact Us Page",
+  "description": "Complete contact page with CTA",
+  "category": "Full Pages",
+  "content": [
+    {
+      "id": "69269b2f4437017d8e2fe51e",
+      "type": "hero",
+      "data": {
+        "title": "Get In Touch",
+        "subtitle": "We'd love to hear from you. Reach out to discuss your project or ask any questions.",
+        "textAlign": "center"
+      },
+      "style": {
+        "padding": "5rem 1rem",
+        "textAlign": "center",
+        "minHeight": "520px",
+        "overlay": {
+          "color": "rgba(0,0,0,0.35)",
+          "opacity": 0.35
+        }
+      }
+    },
+    {
+      "id": "69269b2f4437017d8e2fe51f",
+      "type": "iconGrid",
+      "data": {
+        "heading": "Contact Information",
+        "columns": 3,
+        "items": [
+          {
+            "icon": "phone",
+            "title": "Phone",
+            "description": "+1 (555) 123-4567",
+            "iconColor": "text-primary"
+          },
+          {
+            "icon": "mail",
+            "title": "Email",
+            "description": "hello@company.com",
+            "iconColor": "text-accent"
+          },
+          {
+            "icon": "map-pin",
+            "title": "Address",
+            "description": "123 Business St, City, State",
+            "iconColor": "text-info"
+          }
+        ]
+      },
+      "style": {
+        "padding": "4rem 1rem"
+      }
+    },
+    {
+      "id": "69269b2f4437017d8e2fe520",
+      "type": "cta",
+      "data": {
+        "heading": "Ready to Start Your Project?",
+        "description": "Let's discuss how we can help you achieve your goals",
+        "buttonText": "Schedule a Call",
+        "buttonLink": "#calendar",
+        "backgroundColor": "bg-primary/5"
+      },
+      "style": {
+        "padding": "4rem 1rem",
+        "textAlign": "center"
+      }
+    }
+  ],
+  "previewImage": "/placeholder.svg",
+  "thumbnailUrl": null,
+  "themeTokens": null,
+  "isPremium": false,
+  "usageCount": 0,
+  "tags": [],
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-11-26T06:13:57.568Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-26T06:21:43.949Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69269aa5448a6ecb7a7ebf47"
+  },
+  "name": "Emergency Services Hero",
+  "description": "Urgent care hero with badge and dual CTA buttons",
+  "category": "Hero Sections",
+  "content": [
+    {
+      "id": "69269b2f4437017d8e2fe522",
+      "type": "hero",
+      "data": {
+        "title": "Emergency Care Available 24/7",
+        "subtitle": "When unexpected issues arise, immediate care is essential. Our experienced team provides prompt, compassionate services.",
+        "buttonText": "Call for Emergency Care",
+        "buttonLink": "tel:555-0123",
+        "badge": "AVAILABLE 24/7",
+        "textAlign": "left"
+      },
+      "style": {
+        "padding": "5rem 1rem",
+        "textAlign": "center",
+        "minHeight": "520px",
+        "overlay": {
+          "color": "rgba(0,0,0,0.35)",
+          "opacity": 0.35
+        }
+      }
+    }
+  ],
+  "previewImage": "/placeholder.svg",
+  "thumbnailUrl": null,
+  "themeTokens": null,
+  "isPremium": false,
+  "usageCount": 0,
+  "tags": [],
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-11-26T06:13:57.648Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-26T06:21:43.993Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69269aa5448a6ecb7a7ebf4a"
+  },
+  "name": "Hero with Dual CTAs",
+  "description": "Hero section with primary and secondary action buttons",
+  "category": "Hero Sections",
+  "content": [
+    {
+      "id": "69269b304437017d8e2fe524",
+      "type": "hero",
+      "data": {
+        "title": "Professional Services You Can Trust",
+        "subtitle": "Experience exceptional quality and dedicated support for all your needs",
+        "buttonText": "Get Started Today",
+        "buttonLink": "#contact",
+        "textAlign": "center"
+      },
+      "style": {
+        "padding": "5rem 1rem",
+        "textAlign": "center",
+        "minHeight": "520px",
+        "overlay": {
+          "color": "rgba(0,0,0,0.35)",
+          "opacity": 0.35
+        }
+      }
+    }
+  ],
+  "previewImage": "/placeholder.svg",
+  "thumbnailUrl": null,
+  "themeTokens": null,
+  "isPremium": false,
+  "usageCount": 0,
+  "tags": [],
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-11-26T06:13:57.726Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-26T06:21:44.038Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69269aa5448a6ecb7a7ebf4d"
+  },
+  "name": "Benefits Grid - 6 Items",
+  "description": "Comprehensive benefits showcase in 2-column grid",
+  "category": "Feature Sections",
+  "content": [
+    {
+      "id": "69269b304437017d8e2fe526",
+      "type": "iconGrid",
+      "data": {
+        "heading": "Why Choose Our Services",
+        "description": "Comprehensive benefits designed to meet your needs",
+        "columns": 2,
+        "items": [
+          {
+            "icon": "shield",
+            "title": "Safe & Secure",
+            "description": "Your safety and security are our top priorities",
+            "iconColor": "text-primary"
+          },
+          {
+            "icon": "clock",
+            "title": "Available 24/7",
+            "description": "Round-the-clock support whenever you need us",
+            "iconColor": "text-accent"
+          },
+          {
+            "icon": "award",
+            "title": "Award Winning",
+            "description": "Recognized excellence in our field",
+            "iconColor": "text-warning"
+          },
+          {
+            "icon": "users",
+            "title": "Expert Team",
+            "description": "Highly trained professionals with years of experience",
+            "iconColor": "text-info"
+          },
+          {
+            "icon": "heart",
+            "title": "Compassionate Care",
+            "description": "We treat every client with respect and understanding",
+            "iconColor": "text-success"
+          },
+          {
+            "icon": "zap",
+            "title": "Fast Results",
+            "description": "Quick turnaround without compromising quality",
+            "iconColor": "text-accent"
+          }
+        ]
+      },
+      "style": {
+        "padding": "4rem 1rem"
+      }
+    }
+  ],
+  "previewImage": "/placeholder.svg",
+  "thumbnailUrl": null,
+  "themeTokens": null,
+  "isPremium": false,
+  "usageCount": 0,
+  "tags": [],
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-11-26T06:13:57.807Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-26T06:21:44.083Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69269aa5448a6ecb7a7ebf50"
+  },
+  "name": "Process Steps - Detailed",
+  "description": "Step-by-step process with icons and descriptions",
+  "category": "List Sections",
+  "content": [
+    {
+      "id": "69269b304437017d8e2fe528",
+      "type": "numberedList",
+      "data": {
+        "heading": "How It Works",
+        "description": "Our simple and effective process",
+        "imageUrl": "/placeholder.svg",
+        "imagePosition": "left",
+        "items": [
+          {
+            "title": "Initial Consultation",
+            "description": "We discuss your needs and goals in detail",
+            "iconColor": "text-info"
+          },
+          {
+            "title": "Custom Plan",
+            "description": "We create a personalized approach just for you",
+            "iconColor": "text-warning"
+          },
+          {
+            "title": "Implementation",
+            "description": "Our expert team brings the plan to life",
+            "iconColor": "text-success"
+          },
+          {
+            "title": "Ongoing Support",
+            "description": "We're here for you every step of the way",
+            "iconColor": "text-primary"
+          },
+          {
+            "title": "Results & Review",
+            "description": "Measure success and optimize for the future",
+            "iconColor": "text-accent"
+          }
+        ]
+      },
+      "style": {}
+    }
+  ],
+  "previewImage": "/placeholder.svg",
+  "thumbnailUrl": null,
+  "themeTokens": null,
+  "isPremium": false,
+  "usageCount": 0,
+  "tags": [],
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-11-26T06:13:57.889Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-26T06:21:44.127Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69269aa5448a6ecb7a7ebf53"
+  },
+  "name": "Feature Comparison List",
+  "description": "Compare features with checkmarks and descriptions",
+  "category": "Feature Sections",
+  "content": [
+    {
+      "id": "69269b304437017d8e2fe52a",
+      "type": "featureDetail",
+      "data": {
+        "heading": "Advanced Features",
+        "content": "Everything you need to succeed, all in one place. Our comprehensive solution provides all the tools and support necessary.",
+        "imageUrl": "/placeholder.svg",
+        "imagePosition": "right",
+        "features": [
+          "Complete Integration - Works seamlessly with your existing systems",
+          "Real-time Updates - Stay informed with instant notifications",
+          "Advanced Analytics - Deep insights into your performance",
+          "Priority Support - Get help when you need it most",
+          "Unlimited Storage - Never worry about running out of space"
+        ]
+      },
+      "style": {}
+    }
+  ],
+  "previewImage": "/placeholder.svg",
+  "thumbnailUrl": null,
+  "themeTokens": null,
+  "isPremium": false,
+  "usageCount": 0,
+  "tags": [],
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-11-26T06:13:57.968Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-26T06:21:44.172Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69269aa6448a6ecb7a7ebf56"
+  },
+  "name": "Testimonials with Ratings",
+  "description": "Customer testimonials with star ratings",
+  "category": "Testimonials",
+  "content": [
+    {
+      "id": "69269b304437017d8e2fe52c",
+      "type": "testimonials",
+      "data": {
+        "heading": "Trusted by Thousands",
+        "layout": "carousel",
+        "items": [
+          {
+            "name": "Emma Wilson",
+            "quote": "Outstanding experience from start to finish. Highly recommend!",
+            "role": "Business Owner",
+            "rating": 5
+          },
+          {
+            "name": "James Chen",
+            "quote": "Professional, efficient, and caring. Exceeded all expectations.",
+            "role": "Director of Operations",
+            "rating": 5
+          },
+          {
+            "name": "Sofia Rodriguez",
+            "quote": "Best decision we made. The results speak for themselves.",
+            "role": "Marketing Manager",
+            "rating": 5
+          },
+          {
+            "name": "David Thompson",
+            "quote": "Exceptional service and support. Worth every penny.",
+            "role": "Entrepreneur",
+            "rating": 5
+          }
+        ]
+      },
+      "style": {}
+    }
+  ],
+  "previewImage": "/placeholder.svg",
+  "thumbnailUrl": null,
+  "themeTokens": null,
+  "isPremium": false,
+  "usageCount": 0,
+  "tags": [],
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-11-26T06:13:58.048Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-26T06:21:44.216Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69269aa6448a6ecb7a7ebf59"
+  },
+  "name": "Urgent Action CTA",
+  "description": "High-impact CTA with urgency messaging",
+  "category": "Call to Action",
+  "content": [
+    {
+      "id": "69269b304437017d8e2fe52e",
+      "type": "ctaWithBackground",
+      "data": {
+        "heading": "Don't Wait - Get Help Now",
+        "description": "Contact us immediately for prompt professional service when you need it most",
+        "buttonText": "Call Now",
+        "buttonLink": "tel:555-0123",
+        "backgroundImage": "/placeholder.svg",
+        "overlay": true
+      },
+      "style": {}
+    }
+  ],
+  "previewImage": "/placeholder.svg",
+  "thumbnailUrl": null,
+  "themeTokens": null,
+  "isPremium": false,
+  "usageCount": 0,
+  "tags": [],
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-11-26T06:13:58.128Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-26T06:21:44.260Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69269aa6448a6ecb7a7ebf5c"
+  },
+  "name": "Service Areas Grid",
+  "description": "Geographic or category-based service areas",
+  "category": "Feature Sections",
+  "content": [
+    {
+      "id": "69269b304437017d8e2fe530",
+      "type": "iconGrid",
+      "data": {
+        "heading": "Areas We Serve",
+        "description": "Comprehensive coverage across multiple locations",
+        "columns": 3,
+        "items": [
+          {
+            "icon": "map-pin",
+            "title": "Downtown",
+            "description": "Serving the heart of the city",
+            "iconColor": "text-primary"
+          },
+          {
+            "icon": "map-pin",
+            "title": "North Region",
+            "description": "Complete coverage of northern areas",
+            "iconColor": "text-accent"
+          },
+          {
+            "icon": "map-pin",
+            "title": "East Side",
+            "description": "Fast service to eastern neighborhoods",
+            "iconColor": "text-info"
+          },
+          {
+            "icon": "map-pin",
+            "title": "West District",
+            "description": "Supporting western communities",
+            "iconColor": "text-warning"
+          },
+          {
+            "icon": "map-pin",
+            "title": "South Area",
+            "description": "Reliable service in the south",
+            "iconColor": "text-success"
+          },
+          {
+            "icon": "map-pin",
+            "title": "Suburbs",
+            "description": "Extended reach to surrounding areas",
+            "iconColor": "text-primary"
+          }
+        ]
+      },
+      "style": {
+        "padding": "4rem 1rem"
+      }
+    }
+  ],
+  "previewImage": "/placeholder.svg",
+  "thumbnailUrl": null,
+  "themeTokens": null,
+  "isPremium": false,
+  "usageCount": 0,
+  "tags": [],
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-11-26T06:13:58.217Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-26T06:21:44.305Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69269aa6448a6ecb7a7ebf5f"
+  },
+  "name": "Team Introduction",
+  "description": "Meet the team section with credentials",
+  "category": "Content Sections",
+  "content": [
+    {
+      "id": "69269b304437017d8e2fe532",
+      "type": "imageText",
+      "data": {
+        "heading": "Meet Our Expert Team",
+        "content": "Our highly qualified professionals bring years of experience and dedication to every project. With advanced training and a commitment to excellence, we're here to serve you.",
+        "imageUrl": "/placeholder.svg",
+        "imagePosition": "left",
+        "buttonText": "Meet the Team",
+        "buttonLink": "#team",
+        "backgroundColor": "bg-muted"
+      },
+      "style": {
+        "padding": "4rem 1rem",
+        "objectFit": "cover"
+      }
+    }
+  ],
+  "previewImage": "/placeholder.svg",
+  "thumbnailUrl": null,
+  "themeTokens": null,
+  "isPremium": false,
+  "usageCount": 0,
+  "tags": [],
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-11-26T06:13:58.296Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-26T06:21:44.349Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69269aa6448a6ecb7a7ebf62"
+  },
+  "name": "Guarantee & Promise",
+  "description": "Highlight guarantees and commitments",
+  "category": "Content Sections",
+  "content": [
+    {
+      "id": "69269b304437017d8e2fe534",
+      "type": "cta",
+      "data": {
+        "heading": "Our 100% Satisfaction Guarantee",
+        "description": "We stand behind our work with a complete satisfaction guarantee. If you're not happy, we'll make it right.",
+        "buttonText": "Learn More",
+        "buttonLink": "#guarantee",
+        "backgroundColor": "bg-success/5"
+      },
+      "style": {
+        "padding": "4rem 1rem",
+        "textAlign": "center"
+      }
+    }
+  ],
+  "previewImage": "/placeholder.svg",
+  "thumbnailUrl": null,
+  "themeTokens": null,
+  "isPremium": false,
+  "usageCount": 0,
+  "tags": [],
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-11-26T06:13:58.376Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-26T06:21:44.394Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69269aa6448a6ecb7a7ebf65"
+  },
+  "name": "Before & After Showcase",
+  "description": "Display transformation results",
+  "category": "Content Sections",
+  "content": [
+    {
+      "id": "69269b304437017d8e2fe536",
+      "type": "imageText",
+      "data": {
+        "heading": "Real Results",
+        "content": "See the amazing transformations we've achieved. Our proven methods deliver consistent, impressive results that speak for themselves.",
+        "imageUrl": "/placeholder.svg",
+        "imagePosition": "right",
+        "buttonText": "View Gallery",
+        "buttonLink": "#gallery",
+        "backgroundColor": "bg-background"
+      },
+      "style": {
+        "padding": "4rem 1rem",
+        "objectFit": "cover"
+      }
+    }
+  ],
+  "previewImage": "/placeholder.svg",
+  "thumbnailUrl": null,
+  "themeTokens": null,
+  "isPremium": false,
+  "usageCount": 0,
+  "tags": [],
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-11-26T06:13:58.454Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-26T06:21:44.438Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69269aa6448a6ecb7a7ebf68"
+  },
+  "name": "Certifications & Awards",
+  "description": "Showcase credentials and recognition",
+  "category": "Feature Sections",
+  "content": [
+    {
+      "id": "69269b304437017d8e2fe538",
+      "type": "iconGrid",
+      "data": {
+        "heading": "Certified & Recognized",
+        "description": "Trusted credentials from leading industry organizations",
+        "columns": 4,
+        "items": [
+          {
+            "icon": "award",
+            "title": "Certified Professional",
+            "description": "Industry certification",
+            "iconColor": "text-warning"
+          },
+          {
+            "icon": "shield",
+            "title": "Licensed & Insured",
+            "description": "Fully protected",
+            "iconColor": "text-primary"
+          },
+          {
+            "icon": "star",
+            "title": "Award Winner",
+            "description": "Excellence recognized",
+            "iconColor": "text-accent"
+          },
+          {
+            "icon": "check",
+            "title": "Verified Member",
+            "description": "Trusted organization",
+            "iconColor": "text-success"
+          }
+        ]
+      },
+      "style": {
+        "padding": "4rem 1rem"
+      }
+    }
+  ],
+  "previewImage": "/placeholder.svg",
+  "thumbnailUrl": null,
+  "themeTokens": null,
+  "isPremium": false,
+  "usageCount": 0,
+  "tags": [],
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-11-26T06:13:58.536Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-26T06:21:44.483Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69269aa6448a6ecb7a7ebf6b"
+  },
+  "name": "Insurance & Payment",
+  "description": "Payment options and insurance information",
+  "category": "Content Sections",
+  "content": [
+    {
+      "id": "69269b304437017d8e2fe53a",
+      "type": "iconGrid",
+      "data": {
+        "heading": "Flexible Payment Options",
+        "description": "We accept most major insurance plans and offer flexible payment solutions",
+        "columns": 3,
+        "items": [
+          {
+            "icon": "credit-card",
+            "title": "All Payment Methods",
+            "description": "Cash, card, and digital payments accepted",
+            "iconColor": "text-primary"
+          },
+          {
+            "icon": "shield",
+            "title": "Insurance Accepted",
+            "description": "We work with major insurance providers",
+            "iconColor": "text-info"
+          },
+          {
+            "icon": "calendar",
+            "title": "Payment Plans",
+            "description": "Flexible financing options available",
+            "iconColor": "text-accent"
+          }
+        ]
+      },
+      "style": {
+        "padding": "4rem 1rem"
+      }
+    }
+  ],
+  "previewImage": "/placeholder.svg",
+  "thumbnailUrl": null,
+  "themeTokens": null,
+  "isPremium": false,
+  "usageCount": 0,
+  "tags": [],
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-11-26T06:13:58.616Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-26T06:21:44.528Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69269aa6448a6ecb7a7ebf6e"
+  },
+  "name": "Emergency Protocol",
+  "description": "What to do in emergency situations",
+  "category": "Timeline",
+  "content": [
+    {
+      "id": "69269b304437017d8e2fe53c",
+      "type": "timeline",
+      "data": {
+        "heading": "What To Do In An Emergency",
+        "items": [
+          {
+            "title": "Stay Calm",
+            "description": "Take a deep breath and assess the situation",
+            "iconColor": "text-info"
+          },
+          {
+            "title": "Contact Us Immediately",
+            "description": "Call our emergency line for immediate assistance",
+            "iconColor": "text-warning"
+          },
+          {
+            "title": "Follow Instructions",
+            "description": "Our team will guide you through next steps",
+            "iconColor": "text-primary"
+          },
+          {
+            "title": "Get Help Fast",
+            "description": "We'll see you as soon as possible",
+            "iconColor": "text-success"
+          }
+        ]
+      },
+      "style": {}
+    }
+  ],
+  "previewImage": "/placeholder.svg",
+  "thumbnailUrl": null,
+  "themeTokens": null,
+  "isPremium": false,
+  "usageCount": 0,
+  "tags": [],
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-11-26T06:13:58.696Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-26T06:21:44.573Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69269aa6448a6ecb7a7ebf71"
+  },
+  "name": "Technology & Equipment",
+  "description": "Highlight advanced technology and tools",
+  "category": "Technology",
+  "content": [
+    {
+      "id": "69269b304437017d8e2fe53e",
+      "type": "iconGrid",
+      "data": {
+        "heading": "State-of-the-Art Technology",
+        "description": "Investing in the latest equipment to provide you with the best possible experience",
+        "columns": 3,
+        "items": [
+          {
+            "icon": "zap",
+            "title": "Advanced Systems",
+            "description": "Latest generation equipment for optimal results",
+            "iconColor": "text-primary"
+          },
+          {
+            "icon": "shield",
+            "title": "Safety First",
+            "description": "Enhanced safety features for your peace of mind",
+            "iconColor": "text-success"
+          },
+          {
+            "icon": "eye",
+            "title": "Precision Tools",
+            "description": "Accuracy and detail in every procedure",
+            "iconColor": "text-info"
+          }
+        ]
+      },
+      "style": {
+        "padding": "4rem 1rem"
+      }
+    }
+  ],
+  "previewImage": "/placeholder.svg",
+  "thumbnailUrl": null,
+  "themeTokens": null,
+  "isPremium": false,
+  "usageCount": 0,
+  "tags": [],
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-11-26T06:13:58.775Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-26T06:21:44.617Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69269aa6448a6ecb7a7ebf74"
+  },
+  "name": "Membership Program",
+  "description": "Membership or loyalty program benefits",
+  "category": "Pricing",
+  "content": [
+    {
+      "id": "69269b304437017d8e2fe540",
+      "type": "iconGrid",
+      "data": {
+        "heading": "Join Our Membership Program",
+        "description": "Exclusive benefits for our valued members",
+        "columns": 2,
+        "items": [
+          {
+            "icon": "star",
+            "title": "Priority Scheduling",
+            "description": "Skip the wait with members-only appointment times",
+            "iconColor": "text-warning"
+          },
+          {
+            "icon": "gift",
+            "title": "Special Discounts",
+            "description": "Save on all services with member pricing",
+            "iconColor": "text-accent"
+          },
+          {
+            "icon": "calendar",
+            "title": "Free Annual Check",
+            "description": "Complimentary yearly examination",
+            "iconColor": "text-info"
+          },
+          {
+            "icon": "users",
+            "title": "Family Plans",
+            "description": "Coverage for your entire family",
+            "iconColor": "text-primary"
+          }
+        ]
+      },
+      "style": {
+        "padding": "4rem 1rem"
+      }
+    }
+  ],
+  "previewImage": "/placeholder.svg",
+  "thumbnailUrl": null,
+  "themeTokens": null,
+  "isPremium": false,
+  "usageCount": 0,
+  "tags": [],
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-11-26T06:13:58.856Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-26T06:21:44.664Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69269aa6448a6ecb7a7ebf77"
+  },
+  "name": "Referral Program",
+  "description": "Encourage referrals with rewards",
+  "category": "Call to Action",
+  "content": [
+    {
+      "id": "69269b304437017d8e2fe542",
+      "type": "cta",
+      "data": {
+        "heading": "Refer a Friend, Get Rewarded",
+        "description": "Share the love and receive exclusive rewards for every successful referral",
+        "buttonText": "Start Referring",
+        "buttonLink": "#referral",
+        "backgroundColor": "bg-accent/5"
+      },
+      "style": {
+        "padding": "4rem 1rem",
+        "textAlign": "center"
+      }
+    }
+  ],
+  "previewImage": "/placeholder.svg",
+  "thumbnailUrl": null,
+  "themeTokens": null,
+  "isPremium": false,
+  "usageCount": 0,
+  "tags": [],
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-11-26T06:13:58.954Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-26T06:21:44.709Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69269aa7448a6ecb7a7ebf7a"
+  },
+  "name": "Location & Hours",
+  "description": "Business location and operating hours",
+  "category": "Content Sections",
+  "content": [
+    {
+      "id": "69269b304437017d8e2fe544",
+      "type": "iconGrid",
+      "data": {
+        "heading": "Visit Us",
+        "columns": 2,
+        "items": [
+          {
+            "icon": "map-pin",
+            "title": "Our Location",
+            "description": "123 Main Street, Suite 100, City, State 12345",
+            "iconColor": "text-primary"
+          },
+          {
+            "icon": "clock",
+            "title": "Business Hours",
+            "description": "Mon-Fri: 8am-6pm | Sat: 9am-3pm | Sun: Closed",
+            "iconColor": "text-accent"
+          }
+        ]
+      },
+      "style": {
+        "padding": "4rem 1rem"
+      }
+    }
+  ],
+  "previewImage": "/placeholder.svg",
+  "thumbnailUrl": null,
+  "themeTokens": null,
+  "isPremium": false,
+  "usageCount": 0,
+  "tags": [],
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-11-26T06:13:59.033Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-26T06:21:44.753Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69269aa7448a6ecb7a7ebf7d"
+  },
+  "name": "New Client Welcome",
+  "description": "Welcome message for first-time clients",
+  "category": "Content Sections",
+  "content": [
+    {
+      "id": "69269b304437017d8e2fe546",
+      "type": "imageText",
+      "data": {
+        "heading": "Welcome New Clients!",
+        "content": "We're excited to meet you! Your first visit is all about getting to know you and understanding your needs. We'll take our time to ensure you're comfortable and informed.",
+        "imageUrl": "/placeholder.svg",
+        "imagePosition": "left",
+        "buttonText": "Schedule Your First Visit",
+        "buttonLink": "#book",
+        "backgroundColor": "bg-primary/5"
+      },
+      "style": {
+        "padding": "4rem 1rem",
+        "objectFit": "cover"
+      }
+    }
+  ],
+  "previewImage": "/placeholder.svg",
+  "thumbnailUrl": null,
+  "themeTokens": null,
+  "isPremium": false,
+  "usageCount": 0,
+  "tags": [],
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-11-26T06:13:59.113Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-26T06:21:44.797Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69269aa7448a6ecb7a7ebf80"
+  },
+  "name": "Detailed FAQ Section",
+  "description": "Comprehensive FAQ with categories",
+  "category": "FAQ",
+  "content": [
+    {
+      "id": "69269b304437017d8e2fe548",
+      "type": "faq",
+      "data": {
+        "heading": "Common Questions",
+        "items": [
+          {
+            "question": "How do I get started?",
+            "answer": "Simply contact us to schedule your initial consultation. We'll discuss your needs and create a customized plan."
+          },
+          {
+            "question": "What should I expect?",
+            "answer": "Your comfort is our priority. We'll explain every step and answer all your questions before proceeding."
+          },
+          {
+            "question": "How long does it take?",
+            "answer": "Timeline varies based on your specific needs. We'll provide a detailed schedule during your consultation."
+          },
+          {
+            "question": "Do you accept insurance?",
+            "answer": "Yes, we work with most major insurance providers. Contact us to verify your coverage."
+          },
+          {
+            "question": "What are your payment options?",
+            "answer": "We accept cash, credit cards, and offer flexible payment plans to fit your budget."
+          },
+          {
+            "question": "Can I bring someone with me?",
+            "answer": "Absolutely! You're welcome to bring a family member or friend for support."
+          }
+        ]
+      },
+      "style": {}
+    }
+  ],
+  "previewImage": "/placeholder.svg",
+  "thumbnailUrl": null,
+  "themeTokens": null,
+  "isPremium": false,
+  "usageCount": 0,
+  "tags": [],
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-11-26T06:13:59.193Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-26T06:21:44.842Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69269aa7448a6ecb7a7ebf83"
+  },
+  "name": "Trust & Safety Indicators",
+  "description": "Build trust with safety and privacy info",
+  "category": "Feature Sections",
+  "content": [
+    {
+      "id": "69269b304437017d8e2fe54a",
+      "type": "iconGrid",
+      "data": {
+        "heading": "Your Trust is Our Priority",
+        "columns": 3,
+        "items": [
+          {
+            "icon": "shield",
+            "title": "HIPAA Compliant",
+            "description": "Your privacy is protected by law",
+            "iconColor": "text-primary"
+          },
+          {
+            "icon": "lock",
+            "title": "Secure Data",
+            "description": "Advanced encryption keeps information safe",
+            "iconColor": "text-success"
+          },
+          {
+            "icon": "award",
+            "title": "Accredited",
+            "description": "Meets highest industry standards",
+            "iconColor": "text-warning"
+          }
+        ]
+      },
+      "style": {
+        "padding": "4rem 1rem"
+      }
+    }
+  ],
+  "previewImage": "/placeholder.svg",
+  "thumbnailUrl": null,
+  "themeTokens": null,
+  "isPremium": false,
+  "usageCount": 0,
+  "tags": [],
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-11-26T06:13:59.272Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-26T06:21:44.888Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69269aa7448a6ecb7a7ebf86"
+  },
+  "name": "Social Proof Numbers",
+  "description": "Impressive statistics and social proof",
+  "category": "Statistics",
+  "content": [
+    {
+      "id": "69269b304437017d8e2fe54c",
+      "type": "stats",
+      "data": {
+        "heading": "Trusted by the Community",
+        "items": [
+          {
+            "value": "5,000+",
+            "label": "Happy Clients",
+            "iconColor": "text-primary"
+          },
+          {
+            "value": "15",
+            "label": "Years Serving",
+            "iconColor": "text-accent"
+          },
+          {
+            "value": "4.9/5",
+            "label": "Average Rating",
+            "iconColor": "text-warning"
+          },
+          {
+            "value": "100%",
+            "label": "Satisfaction Rate",
+            "iconColor": "text-success"
+          }
+        ]
+      },
+      "style": {}
+    }
+  ],
+  "previewImage": "/placeholder.svg",
+  "thumbnailUrl": null,
+  "themeTokens": null,
+  "isPremium": false,
+  "usageCount": 0,
+  "tags": [],
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-11-26T06:13:59.355Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-26T06:21:44.932Z"
+  },
+  "__v": 0
+}]

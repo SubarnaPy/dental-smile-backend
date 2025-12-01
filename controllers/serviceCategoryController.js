@@ -41,13 +41,22 @@ const createCategory = async (req, res) => {
       return res.status(400).json({ success: false, message: "Name and displayName are required" });
     }
 
-    const existingCategory = await ServiceCategory.findOne({ name });
+    // Generate slug from name
+    const slug = name
+      .toLowerCase()
+      .replace(/[^a-z0-9\s-]/g, '')
+      .replace(/\s+/g, '-')
+      .replace(/-+/g, '-')
+      .trim();
+
+    const existingCategory = await ServiceCategory.findOne({ $or: [{ name }, { slug }] });
     if (existingCategory) {
-      return res.status(400).json({ success: false, message: "Category with this name already exists" });
+      return res.status(400).json({ success: false, message: "Category with this name or slug already exists" });
     }
 
     const category = await ServiceCategory.create({
       name,
+      slug,
       displayName,
       description,
       color,

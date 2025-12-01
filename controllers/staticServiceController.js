@@ -550,6 +550,55 @@ exports.updateSectionOrder = async (req, res) => {
   }
 };
 
+// PATCH /api/static-services/:serviceKey/unified-order - Update unified order (sections + components)
+exports.updateUnifiedOrder = async (req, res) => {
+  try {
+    const { serviceKey } = req.params;
+    const { unifiedOrder } = req.body;
+
+    if (!Array.isArray(unifiedOrder)) {
+      return res.status(400).json({
+        success: false,
+        message: "unifiedOrder must be an array",
+      });
+    }
+
+    // Also update sectionOrder for backward compatibility (extract only section names)
+    const validSections = [
+      "hero", "introduction", "benefits", "features", "process", "whatToExpect",
+      "types", "comparison", "tips", "aftercare", "ageGroups", "technology",
+      "serviceList", "stats", "faq", "cta", "allOnFour", "seniors", "treatments",
+      "treatmentBenefits", "approach", "whenNeeded", "results", "veneerBenefits",
+      "care", "importance", "offerings", "suitability", "getStarted", "partialBenefits", "services"
+    ];
+    const sectionOrder = unifiedOrder.filter(item => validSections.includes(item));
+
+    const service = await StaticServicePage.findOneAndUpdate(
+      { serviceKey },
+      { $set: { unifiedOrder, sectionOrder, updatedAt: new Date() } },
+      { new: true },
+    );
+
+    if (!service) {
+      return res.status(404).json({
+        success: false,
+        message: "Service not found",
+      });
+    }
+
+    res.json({
+      success: true,
+      message: "Unified order updated successfully",
+      data: { unifiedOrder: service.unifiedOrder, sectionOrder: service.sectionOrder },
+    });
+  } catch (error) {
+    console.error("Error updating unified order:", error);
+    res
+      .status(500)
+      .json({ success: false, message: "Server error", error: error.message });
+  }
+};
+
 // PATCH /api/static-services/:serviceKey/toggle-section/:sectionName - Enable/disable section
 exports.toggleSection = async (req, res) => {
   try {
@@ -1448,6 +1497,368 @@ exports.duplicateService = async (req, res) => {
     res
       .status(500)
       .json({ success: false, message: "Server error", error: error.message });
+  }
+};
+
+// ============================================================================
+// RESET & TEMPLATE MANAGEMENT
+// ============================================================================
+
+// POST /api/static-services/:serviceKey/reset-page - Reset entire page to defaults
+exports.resetEntirePage = async (req, res) => {
+  try {
+    const { serviceKey } = req.params;
+    const { keepCustomComponents } = req.body;
+
+    const service = await StaticServicePage.findOne({ serviceKey });
+    if (!service) {
+      return res.status(404).json({
+        success: false,
+        message: "Service not found",
+      });
+    }
+
+    const displayName = service.displayName || getDisplayNames()[serviceKey];
+    const defaultData = createDefaultServiceData(serviceKey, displayName);
+
+    // Optionally keep custom components
+    if (keepCustomComponents && service.customComponents) {
+      defaultData.customComponents = service.customComponents;
+    }
+
+    const updatedService = await StaticServicePage.findOneAndUpdate(
+      { serviceKey },
+      { $set: { ...defaultData, updatedAt: new Date() } },
+      { new: true, runValidators: true }
+    );
+
+    res.json({
+      success: true,
+      message: "Page reset to defaults successfully",
+      data: updatedService,
+    });
+  } catch (error) {
+    console.error("Error resetting page:", error);
+    res.status(500).json({ success: false, message: "Server error", error: error.message });
+  }
+};
+
+// POST /api/static-services/:serviceKey/add-template - Add template components to page
+exports.addTemplateToPage = async (req, res) => {
+  try {
+    const { serviceKey } = req.params;
+    const { components, insertAt } = req.body;
+
+    if (!Array.isArray(components) || components.length === 0) {
+      return res.status(400).json({
+        success: false,
+        message: "components must be a non-empty array",
+      });
+    }
+
+    const service = await StaticServicePage.findOne({ serviceKey });
+    if (!service) {
+      return res.status(404).json({
+        success: false,
+        message: "Service not found",
+      });
+    }
+
+    // Add unique IDs to components
+    const newComponents = components.map((comp, idx) => ({
+      ...comp,
+      id: `template-${Date.now()}-${idx}`,
+      createdAt: new Date(),
+    }));
+
+    // Get existing custom components or initialize empty array
+    let customComponents = service.customComponents || [];
+
+    // Insert at specific position or append
+    if (typeof insertAt === "number" && insertAt >= 0) {
+      customComponents.splice(insertAt, 0, ...newComponents);
+    } else {
+      customComponents = [...customComponents, ...newComponents];
+    }
+
+    // Update order values
+    customComponents = customComponents.map((comp, idx) => ({
+      ...comp,
+      order: idx,
+    }));
+
+    // Update unified order - add new component IDs at the end (or at insertAt position)
+    // Don't initialize unifiedOrder with sections - the frontend handles that
+    // Just add the new component IDs
+    let unifiedOrder = service.unifiedOrder || [];
+    
+    // If unifiedOrder is empty, just add the existing component IDs (if any) + new ones
+    // The frontend will merge sections automatically
+    if (unifiedOrder.length === 0) {
+      const existingComponentIds = (service.customComponents || []).map(c => c.id);
+      unifiedOrder = [...existingComponentIds];
+    }
+    
+    // Add new component IDs to unified order
+    const newComponentIds = newComponents.map(c => c.id);
+    if (typeof insertAt === "number" && insertAt >= 0 && insertAt < unifiedOrder.length) {
+      unifiedOrder.splice(insertAt, 0, ...newComponentIds);
+    } else {
+      unifiedOrder = [...unifiedOrder, ...newComponentIds];
+    }
+
+    const updatedService = await StaticServicePage.findOneAndUpdate(
+      { serviceKey },
+      { $set: { customComponents, unifiedOrder, updatedAt: new Date() } },
+      { new: true }
+    );
+
+    res.json({
+      success: true,
+      message: `${newComponents.length} template component(s) added successfully`,
+      data: updatedService.customComponents,
+    });
+  } catch (error) {
+    console.error("Error adding template:", error);
+    res.status(500).json({ success: false, message: "Server error", error: error.message });
+  }
+};
+
+// POST /api/static-services/:serviceKey/add-custom-component - Add a custom component
+exports.addCustomComponent = async (req, res) => {
+  try {
+    const { serviceKey } = req.params;
+    const componentData = req.body;
+
+    const service = await StaticServicePage.findOne({ serviceKey });
+    if (!service) {
+      return res.status(404).json({
+        success: false,
+        message: "Service not found",
+      });
+    }
+
+    const customComponents = service.customComponents || [];
+    const newComponent = {
+      ...componentData,
+      id: componentData.id || `custom-${Date.now()}`,
+      order: customComponents.length,
+      createdAt: new Date(),
+    };
+
+    const updatedService = await StaticServicePage.findOneAndUpdate(
+      { serviceKey },
+      { 
+        $push: { customComponents: newComponent },
+        $set: { updatedAt: new Date() }
+      },
+      { new: true }
+    );
+
+    res.json({
+      success: true,
+      message: "Custom component added successfully",
+      data: updatedService.customComponents,
+    });
+  } catch (error) {
+    console.error("Error adding custom component:", error);
+    res.status(500).json({ success: false, message: "Server error", error: error.message });
+  }
+};
+
+// DELETE /api/static-services/:serviceKey/custom-component/:componentId - Remove custom component
+exports.removeCustomComponent = async (req, res) => {
+  try {
+    const { serviceKey, componentId } = req.params;
+
+    const service = await StaticServicePage.findOneAndUpdate(
+      { serviceKey },
+      {
+        $pull: { 
+          customComponents: { id: componentId },
+          unifiedOrder: componentId  // Also remove from unified order
+        },
+        $set: { updatedAt: new Date() },
+      },
+      { new: true }
+    );
+
+    if (!service) {
+      return res.status(404).json({
+        success: false,
+        message: "Service not found",
+      });
+    }
+
+    // Re-order remaining components
+    const reorderedComponents = (service.customComponents || []).map((comp, idx) => ({
+      ...comp.toObject ? comp.toObject() : comp,
+      order: idx,
+    }));
+
+    await StaticServicePage.findOneAndUpdate(
+      { serviceKey },
+      { $set: { customComponents: reorderedComponents } }
+    );
+
+    res.json({
+      success: true,
+      message: "Custom component removed successfully",
+      data: reorderedComponents,
+    });
+  } catch (error) {
+    console.error("Error removing custom component:", error);
+    res.status(500).json({ success: false, message: "Server error", error: error.message });
+  }
+};
+
+// PATCH /api/static-services/:serviceKey/reorder-custom-components - Reorder custom components
+exports.reorderCustomComponents = async (req, res) => {
+  try {
+    const { serviceKey } = req.params;
+    const { componentOrder } = req.body;
+
+    if (!Array.isArray(componentOrder)) {
+      return res.status(400).json({
+        success: false,
+        message: "componentOrder must be an array of component IDs",
+      });
+    }
+
+    const service = await StaticServicePage.findOne({ serviceKey });
+    if (!service) {
+      return res.status(404).json({
+        success: false,
+        message: "Service not found",
+      });
+    }
+
+    const customComponents = service.customComponents || [];
+    
+    // Create a map for quick lookup
+    const componentMap = new Map();
+    customComponents.forEach(comp => {
+      componentMap.set(comp.id, comp.toObject ? comp.toObject() : comp);
+    });
+
+    // Reorder based on provided order
+    const reorderedComponents = componentOrder
+      .filter(id => componentMap.has(id))
+      .map((id, idx) => ({
+        ...componentMap.get(id),
+        order: idx,
+      }));
+
+    // Add any components not in the order array at the end
+    customComponents.forEach(comp => {
+      const compId = comp.id;
+      if (!componentOrder.includes(compId)) {
+        reorderedComponents.push({
+          ...(comp.toObject ? comp.toObject() : comp),
+          order: reorderedComponents.length,
+        });
+      }
+    });
+
+    const updatedService = await StaticServicePage.findOneAndUpdate(
+      { serviceKey },
+      { $set: { customComponents: reorderedComponents, updatedAt: new Date() } },
+      { new: true }
+    );
+
+    res.json({
+      success: true,
+      message: "Components reordered successfully",
+      data: updatedService.customComponents,
+    });
+  } catch (error) {
+    console.error("Error reordering components:", error);
+    res.status(500).json({ success: false, message: "Server error", error: error.message });
+  }
+};
+
+// PUT /api/static-services/:serviceKey/custom-component/:componentId - Update custom component
+exports.updateCustomComponent = async (req, res) => {
+  try {
+    const { serviceKey, componentId } = req.params;
+    const updateData = req.body;
+
+    const service = await StaticServicePage.findOne({ serviceKey });
+    if (!service) {
+      return res.status(404).json({
+        success: false,
+        message: "Service not found",
+      });
+    }
+
+    const customComponents = service.customComponents || [];
+    const componentIndex = customComponents.findIndex(comp => comp.id === componentId);
+    
+    if (componentIndex === -1) {
+      return res.status(404).json({
+        success: false,
+        message: "Component not found",
+      });
+    }
+
+    // Update the component while preserving id, order, and createdAt
+    const existingComponent = customComponents[componentIndex].toObject 
+      ? customComponents[componentIndex].toObject() 
+      : customComponents[componentIndex];
+    
+    const updatedComponent = {
+      ...existingComponent,
+      type: updateData.type || existingComponent.type,
+      data: updateData.data !== undefined ? updateData.data : existingComponent.data,
+      style: updateData.style !== undefined ? updateData.style : existingComponent.style,
+      enabled: updateData.enabled !== undefined ? updateData.enabled : existingComponent.enabled,
+      updatedAt: new Date(),
+    };
+
+    customComponents[componentIndex] = updatedComponent;
+
+    const updatedService = await StaticServicePage.findOneAndUpdate(
+      { serviceKey },
+      { $set: { customComponents, updatedAt: new Date() } },
+      { new: true }
+    );
+
+    res.json({
+      success: true,
+      message: "Component updated successfully",
+      data: updatedService.customComponents.find(c => c.id === componentId),
+    });
+  } catch (error) {
+    console.error("Error updating custom component:", error);
+    res.status(500).json({ success: false, message: "Server error", error: error.message });
+  }
+};
+
+// GET /api/static-services/:serviceKey/custom-components - Get all custom components
+exports.getCustomComponents = async (req, res) => {
+  try {
+    const { serviceKey } = req.params;
+
+    const service = await StaticServicePage.findOne({ serviceKey });
+    if (!service) {
+      return res.status(404).json({
+        success: false,
+        message: "Service not found",
+      });
+    }
+
+    // Sort by order field
+    const customComponents = (service.customComponents || [])
+      .sort((a, b) => (a.order || 0) - (b.order || 0));
+
+    res.json({
+      success: true,
+      data: customComponents,
+      count: customComponents.length,
+    });
+  } catch (error) {
+    console.error("Error fetching custom components:", error);
+    res.status(500).json({ success: false, message: "Server error", error: error.message });
   }
 };
 

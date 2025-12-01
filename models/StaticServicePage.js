@@ -609,7 +609,23 @@ const StaticServicePageSchema = new mongoose.Schema(
     // Custom sections (admin can add/remove)
     customSections: [CustomSectionSchema],
 
-    // Section order (array of section names in display order)
+    // Custom components from templates (drag-drop reorderable)
+    customComponents: [{
+      id: { type: String, required: true },
+      type: { type: String, required: true },
+      data: { type: mongoose.Schema.Types.Mixed, default: {} },
+      style: { type: mongoose.Schema.Types.Mixed, default: {} },
+      enabled: { type: Boolean, default: true },
+      order: { type: Number, default: 0 },
+      createdAt: { type: Date, default: Date.now },
+      updatedAt: { type: Date, default: Date.now },
+    }],
+
+    // Unified order - stores both section names and component IDs in display order
+    // e.g., ["hero", "introduction", "template-123", "benefits", "template-456", "cta"]
+    unifiedOrder: [{ type: String }],
+
+    // Section order (array of section names in display order) - DEPRECATED, use unifiedOrder
     sectionOrder: [
       {
         type: String,
