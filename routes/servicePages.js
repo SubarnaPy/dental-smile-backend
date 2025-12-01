@@ -1,5 +1,5 @@
 const express = require('express');
-const { body, validationResult } = require('express-validator');
+const { body } = require('express-validator');
 const sanitizeHtml = require('sanitize-html');
 const { auth, authorize } = require('../middleware/auth');
 const ServicePage = require('../models/ServicePage');
@@ -8,17 +8,17 @@ const router = express.Router();
 
 // Validation rules
 const servicePageValidation = [
-  body('title').trim().isLength({ min: 1, max: 200 }).withMessage('Title is required (1-200 characters)'),
-  body('slug').optional().trim().isLength({ max: 100 }).matches(/^[a-z0-9-]*$/).withMessage('Slug must contain only lowercase letters, numbers, and hyphens'),
-  body('description').optional({ nullable: true }).trim().isLength({ max: 500 }),
-  body('category').optional({ nullable: true }),
-  body('image').optional({ nullable: true }),
-  body('previewImage').optional({ nullable: true }),
+  body('title').trim().isLength({ min: 1, max: 200 }),
+  body('slug').trim().isLength({ min: 1, max: 100 }).matches(/^[a-z0-9-]+$/),
+  body('description').optional().trim().isLength({ max: 500 }),
+  body('category').optional().trim(),
+  body('image').optional().isURL(),
+  body('previewImage').optional().isURL(),
   body('status').optional().isIn(['draft', 'published', 'archived']),
   body('content').optional(),
   body('pageStyle').optional(),
-  body('seo').optional(),
-  body('themeTokens').optional()
+  body('seo').optional().isObject(),
+  body('themeTokens').optional().isObject()
 ];
 
 // @desc    Get published service pages (public)
@@ -195,16 +195,6 @@ const ensureComponentStyles = (content) => {
 // @access  Private
 router.post('/', auth, authorize('admin', 'editor'), servicePageValidation, async (req, res) => {
   try {
-    // Check for validation errors
-    const errors = validationResult(req);
-    if (!errors.isEmpty()) {
-      return res.status(400).json({
-        success: false,
-        message: 'Validation failed',
-        errors: errors.array()
-      });
-    }
-
     // sanitize incoming HTML fields to avoid storing unsafe markup
     const sanitize = (input) => {
       if (typeof input === 'string') {
@@ -233,29 +223,6 @@ router.post('/', auth, authorize('admin', 'editor'), servicePageValidation, asyn
       sanitizedBody.content = ensureComponentStyles(sanitizedBody.content);
     }
 
-    // Generate slug from title if not provided
-    if (!sanitizedBody.slug && sanitizedBody.title) {
-      sanitizedBody.slug = sanitizedBody.title
-        .toLowerCase()
-        .replace(/[^a-zA-Z0-9 ]/g, '')
-        .replace(/\s+/g, '-')
-        .replace(/-+/g, '-')
-        .replace(/^-|-$/g, '');
-    }
-
-    // Handle empty category - remove it if empty string or invalid
-    if (!sanitizedBody.category || sanitizedBody.category === '' || sanitizedBody.category === 'null') {
-      delete sanitizedBody.category;
-    }
-
-    // Handle empty image fields
-    if (!sanitizedBody.image || sanitizedBody.image === '') {
-      delete sanitizedBody.image;
-    }
-    if (!sanitizedBody.previewImage || sanitizedBody.previewImage === '') {
-      delete sanitizedBody.previewImage;
-    }
-
     const servicePageData = {
       ...sanitizedBody,
       createdBy: req.user._id,
@@ -270,18 +237,10 @@ router.post('/', auth, authorize('admin', 'editor'), servicePageValidation, asyn
       data: { servicePage }
     });
   } catch (error) {
-    console.error('Error creating service page:', error);
     if (error.code === 11000) {
       return res.status(400).json({
         success: false,
         message: 'Slug already exists'
-      });
-    }
-    if (error.name === 'ValidationError') {
-      return res.status(400).json({
-        success: false,
-        message: 'Validation error',
-        errors: Object.values(error.errors).map((e) => ({ msg: e.message, path: e.path }))
       });
     }
     res.status(500).json({

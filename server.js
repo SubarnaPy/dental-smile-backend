@@ -36,6 +36,7 @@ const partialDenturesRoutes = require("./routes/partialDentures");
 const tmjConsultRoutes = require("./routes/tmjConsult");
 const staticServicesRoutes = require("./routes/staticServices");
 const serviceCategoriesRoutes = require("./routes/serviceCategories");
+const formSubmissionsRoutes = require("./routes/formSubmissions");
 
 const app = express();
 
@@ -115,6 +116,7 @@ connectDB()
     app.use("/api/tmj-consult", tmjConsultRoutes);
     app.use("/api/static-services", staticServicesRoutes);
     app.use("/api/service-categories", serviceCategoriesRoutes);
+    app.use("/api/form-submissions", formSubmissionsRoutes);
     console.log("Routes set up");
 
     // 404 handler
