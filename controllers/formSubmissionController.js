@@ -2,16 +2,27 @@ const FormSubmission = require('../models/FormSubmission');
 
 // Submit a form
 exports.submitForm = async (req, res) => {
+  console.log('\n=== FORM SUBMISSION REQUEST ===');
+  console.log('Request body:', JSON.stringify(req.body, null, 2));
+  console.log('IP Address:', req.ip || req.connection.remoteAddress);
+  console.log('User Agent:', req.get('user-agent'));
+  
   try {
     const { formType, formData } = req.body;
 
+    console.log('Form Type:', formType);
+    console.log('Form Data:', JSON.stringify(formData, null, 2));
+
     if (!formType || !formData) {
+      console.log('❌ Validation failed: Missing formType or formData');
       return res.status(400).json({
         success: false,
         message: 'Form type and form data are required'
       });
     }
 
+    console.log('✓ Validation passed, creating submission...');
+    
     const submission = new FormSubmission({
       formType,
       formData,
@@ -19,7 +30,9 @@ exports.submitForm = async (req, res) => {
       userAgent: req.get('user-agent')
     });
 
+    console.log('✓ Submission object created, saving to database...');
     await submission.save();
+    console.log('✅ Submission saved successfully! ID:', submission._id);
 
     res.status(201).json({
       success: true,
@@ -27,7 +40,8 @@ exports.submitForm = async (req, res) => {
       data: submission
     });
   } catch (error) {
-    console.error('Form submission error:', error);
+    console.error('❌ Form submission error:', error);
+    console.error('Error stack:', error.stack);
     res.status(500).json({
       success: false,
       message: 'Failed to submit form',

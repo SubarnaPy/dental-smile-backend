@@ -4,7 +4,6 @@ const formSubmissionSchema = new mongoose.Schema({
   formType: {
     type: String,
     required: true,
-    enum: ['emergency', 'new-patient', 'contact', 'appointment'],
     trim: true
   },
   formData: {
